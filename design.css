@@ -6,3273 +6,6 @@
     --color-5: #f1b211;
 }
 
-@media (max-width: 1200px) {
-    .gallerysct {
-        width: 68em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 14em !important;
-        height: 10em !important;
-    }
-
-    .p-banner-box {
-        width: 70em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 70em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 15em !important;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .workcard {
-        width: 12.5em !important;
-    }
-
-    .productcontainer {
-        width: 18em !important;
-        height: 100% !important;
-    }
-
-    .p-banner-box {
-        width: 60em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 62em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 13em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 62em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 17em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 64em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 64em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 32em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 32em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 64em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 18em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.7em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em !important;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 66em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 66em !important;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 66em !important;
-    }
-
-    .w-infocontainer {
-        width: 31em !important;
-    }
-
-    #w-maps {
-        width: 31em !important;
-        height: 34em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 66em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 19em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 44em !important;
-    }
-
-
-
-    #dn-box {
-        width: 66em !important;
-    }
-
-}
-
-@media screen and (max-width: 1100px) {
-
-
-
-    .scttitle-dark {
-        font-size: 1.9em !important;
-    }
-
-    .scttxt-dark {
-        font-size: 1.4em !important;
-    }
-
-
-
-    #firstscttxt {
-        font-size: 2.7em !important;
-    }
-
-    .workcard {
-        width: 12em !important;
-    }
-
-    .workcardcontent {
-        padding: 5.5em 1em 5.5em 1em !important;
-    }
-
-    .productcontainer {
-        width: 18em !important;
-        height: 100% !important;
-    }
-
-    .gallerysct {
-        width: 64em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 13em !important;
-        height: 10em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 62em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% !important;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 64em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 63em !important;
-    }
-
-
-
-
-
-    #w-container {
-        width: 63em !important;
-    }
-
-    .w-infocontainer {
-        width: 30em !important;
-    }
-
-    #w-maps {
-        width: 30em !important;
-        height: 35em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 63em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 18em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 42em !important;
-    }
-
-
-
-    #dn-box {
-        width: 63em !important;
-    }
-
-}
-
-@media screen and (max-width: 1030px) {
-
-    .workcard {
-        width: 11em !important;
-    }
-
-    .workcardcontent {
-        padding: 5em 1em 5em 1em !important;
-        font-size: 1em !important;
-    }
-
-    .productcontainer {
-        width: 17em !important;
-        height: 100% !important;
-    }
-
-    .p-banner-box {
-        width: 58em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 60em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 13em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 60em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 60em !important;
-        order: 2;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-    #p-productsct-advantage {
-        width: 58em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 17em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.7em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em !important;
-    }
-
-
-
-
-    #g-gallery-container {
-        width: 60em !important;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.5em !important;
-    }
-
-    #g-gallery-container img {
-        width: 16em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 58em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 61em !important;
-    }
-
-    .w-infocontainer {
-        width: 30em !important;
-    }
-
-    #w-maps {
-        width: 30em !important;
-        height: 35em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 60em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 18em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 40em !important;
-    }
-
-
-
-    #dn-box {
-        width: 60em !important;
-    }
-}
-
-@media screen and (max-width:1000px) {
-
-    .scttitle-dark {
-        font-size: 1.4em !important;
-    }
-
-    .scttxt-dark {
-        font-size: 1.2em !important;
-    }
-
-    #menu {
-        font-size: 1em !important;
-    }
-
-    #firstscttxt {
-        font-size: 2.3em !important;
-    }
-
-    .numscttitle {
-        font-size: 1.2em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.8em !important;
-    }
-
-    #numsct {
-        width: 80% !important;
-    }
-
-    .icon {
-        width: 4em !important;
-        height: 4em !important;
-        bottom: -2em !important;
-    }
-
-    .productcontainer {
-        width: 16em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 1.3em !important;
-    }
-
-    .p-box-100 {
-        width: 80% !important;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 56em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 22em !important;
-        height: 15em !important;
-    }
-
-    .p-banner-box {
-        width: 56em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 58em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 12em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 60em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 16em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
-
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 58em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 24em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 56em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 16em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.6em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em !important;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 58em !important;
-    }
-
-    #g-gallery-container img {
-        width: 16em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 58em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 58em !important;
-    }
-
-    .w-infocontainer {
-        width: 28em !important;
-    }
-
-    #w-maps {
-        width: 28em !important;
-        height: 36em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 58em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 25em !important;
-        height: 25em !important;
-        order: 2 !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% !important;
-        order: 1 !important;
-    }
-
-}
-
-@media screen and (max-width: 960px) {
-
-    .scttitle-light {
-        font-size: 1.8em !important;
-    }
-
-    .workcard {
-        width: 10em !important;
-    }
-
-    .workcardcontent {
-        padding: 5em 1em 5em 1em !important;
-        font-size: 1em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 56em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 56em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 24em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 56em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 28em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 28em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 28em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    #g-gallery-container {
-        width: 56em !important;
-    }
-
-    #g-gallery-container img {
-        width: 16em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 54em !important;
-    }
-
-
-
-    .w-logo {
-        width: 90% !important;
-    }
-
-    #w-container {
-        width: 54em !important;
-    }
-
-    .w-infocontainer {
-        width: 30em !important;
-    }
-
-    #w-maps {
-        width: 20em !important;
-        height: 36em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 54em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 22em !important;
-        height: 22em !important;
-        order: 2 !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% !important;
-        order: 1 !important;
-    }
-
-
-
-    #dn-box {
-        width: 54em !important;
-    }
-}
-
-@media screen and (max-width: 930px) {
-
-    .productcontainer {
-        width: 15em !important;
-    }
-
-
-    .p-banner-box {
-        width: 54em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 56em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 24em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 54em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.1em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 54em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 26em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 26em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 26em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 54em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 16em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.5em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.35em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em !important;
-    }
-
-
-
-
-    #g-gallery-container {
-        width: 54em !important;
-    }
-
-    #g-gallery-container img {
-        width: 15em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 52em !important;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 54em !important;
-    }
-
-    .w-infocontainer {
-        width: 90% !important;
-        border-left: none !important;
-        margin-bottom: 1em;
-    }
-
-    .w-infobox {
-        border-bottom: 0.22em dotted rgb(58, 58, 58);
-        flex-direction: column !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .w-logo-box {
-        padding: 1em 0 0 0 !important;
-        width: 5%;
-    }
-
-    .w-txtbox {
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .w-txtbox-txt {
-        text-align: center !important;
-    }
-
-    #w-maps {
-        width: 52em !important;
-        height: 30em !important;
-    }
-
-
-
-
-    #dn-box {
-        width: 52em !important;
-    }
-}
-
-@media screen and (max-width:900px) {
-
-    #menu {
-        font-size: 0.9em !important;
-    }
-
-    #firstscttxt {
-        font-size: 2em !important;
-    }
-
-    .numscttitle {
-        font-size: 1.1em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.7em !important;
-    }
-
-    .workcard {
-        width: 9.5em !important;
-    }
-
-    .workcardcontent {
-        padding: 4em 1em 4em 1em !important;
-        font-size: 1em !important;
-    }
-
-    .productcontainer {
-        width: 20em !important;
-    }
-
-    .gallerysct {
-        width: 52em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 20em !important;
-        height: 14em !important;
-    }
-
-    .p-banner-box {
-        width: 50em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 52em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 20em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 54em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 14em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 52em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.1em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% !important;
-    }
-
-
-
-
-
-    #p-productsct-advantage {
-        width: 52em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 15em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em !important;
-    }
-
-
-    #g-gallery-container {
-        width: 52em !important;
-    }
-
-    #g-gallery-container img {
-        width: 15em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 50em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 50em !important;
-    }
-
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 48em !important;
-        height: 28em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 50em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 22em !important;
-        height: 22em !important;
-        order: 2 !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% !important;
-        order: 1 !important;
-    }
-
-
-
-
-    #dn-box {
-        width: 52em !important;
-    }
-
-}
-
-@media screen and (max-width: 850px) {
-
-    .scttxt-dark {
-        font-size: 1.2em !important;
-    }
-
-    .p-banner-box {
-        width: 48em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 50em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 18em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 52em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 13em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 50em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 20em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 100% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 50em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 34em !important;
-        width: 24em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 24em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 24em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 50em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 14em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em !important;
-    }
-
-
-
-    #g-gallery-container {
-        width: 50em !important;
-    }
-
-    #g-gallery-container img {
-        width: 14em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 48em !important;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 48em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 46em !important;
-        height: 28em !important;
-    }
-
-
-
-    #dn-box {
-        width: 48em !important;
-    }
-
-}
-
-@media screen and (max-width:830px) {
-
-    .menubtn {
-        font-size: 1.1em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.9em !important;
-    }
-
-    #logo {
-        width: 9em !important;
-    }
-
-    .numscttitle {
-        font-size: 1em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.6em !important;
-    }
-
-    .workcard {
-        padding: 1em !important;
-        width: 40% !important;
-    }
-
-    .icon {
-        width: 5em !important;
-        height: 5em !important;
-        bottom: -2.5em !important;
-    }
-
-    .workcard {
-        width: 14em !important;
-    }
-
-    .workcardcontent {
-        padding: 3em 1em 3em 1em !important;
-        font-size: 1em !important;
-    }
-
-    .productcontainer {
-        width: 18em !important;
-    }
-
-    .productcontainerimg {
-        height: 10em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 1.3em !important;
-    }
-
-    .gallerysct {
-        width: 44em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 17em !important;
-        height: 12em !important;
-    }
-
-    .p-banner-box {
-        width: 48em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 51em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 13em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 48em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 20em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 100% !important;
-    }
-
-
-
-    #p-productsct-advantage {
-        width: 48em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 14em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em !important;
-    }
-
-
-
-    #g-gallery-container {
-        width: 48em !important;
-    }
-
-    #g-gallery-container img {
-        width: 13em !important;
-    }
-
-
-
-    #w-container {
-        width: 44em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 42em !important;
-        height: 26em !important;
-    }
-
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 44em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 20em !important;
-        height: 20em !important;
-    }
-
-
-
-    #dn-box {
-        width: 44em !important;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-
-    .p-banner-box {
-        width: 48em !important;
-    }
-
-    .p-banner-box {
-        width: 43em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 46em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 18em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 46em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 12em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 46em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 46em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% !important;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 48em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 34em !important;
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 24em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 46em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 25em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em !important;
-    }
-
-
-
-    #g-gallery-container {
-        width: 46em !important;
-    }
-
-    #g-gallery-container img {
-        width: 13em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 46em !important;
-    }
-
-
-
-
-    #dn-box {
-        width: 46em !important;
-    }
-
-}
-
-@media screen and (max-width: 750px) {
-    .menubtn {
-        font-size: 1em !important;
-    }
-
-    .p-banner-box {
-        width: 40em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 42em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 15em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 44em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 11em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 42em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 42em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% !important;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 44em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 42em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 44em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 40em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-        text-align: center !important;
-        padding: 1em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 42em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 25em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em !important;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.5em !important;
-    }
-
-    #g-gallery-container {
-        width: 44em !important;
-    }
-
-    #g-gallery-container img {
-        width: 12em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 42em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 42em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 40em !important;
-        height: 26em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 42em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 20em !important;
-        height: 20em !important;
-    }
-
-
-
-    #dn-box {
-        width: 42em !important;
-    }
-
-    
-
-    footer {
-        font-size: 0.7em !important;
-    }
-}
-
-
-
-@media screen and (max-width: 700px) {
-    .scttxt-dark {
-        font-size: 0.9em !important;
-    }
-
-    .menubtn {
-        font-size: 0.9em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.7em !important;
-    }
-
-    .icon {
-        width: 4.5em !important;
-        height: 4.5em !important;
-        bottom: -2.5em !important;
-    }
-
-    .workcard {
-        width: 12em !important;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.7em 3em 0.7em !important;
-        font-size: 1em !important;
-    }
-
-    .numscttitle {
-        font-size: 1em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.5em !important;
-    }
-
-    .productcontainer {
-        width: 16em !important;
-    }
-
-    .productcontainerimg {
-        height: 10em !important;
-    }
-
-    .gallerysct {
-        width: 38em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 15em !important;
-        height: 10em !important;
-    }
-
-    .p-banner-box {
-        width: 37em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 38em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 14em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 40em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em !important;
-        height: 20em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 40em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 40em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% !important;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 40em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 28em !important;
-        width: 38em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 38em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 37em !important;
-        padding: 1em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 36em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 26em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.2em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-    .g-gallery-container-section-title {
-        font-size: 1.5em !important;
-    }
-
-    #g-gallery-container {
-        width: 40em !important;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.3em !important;
-    }
-
-    #g-gallery-container img {
-        width: 16em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 38em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 38em !important;
-    }
-
-    .w-infocontainer {
-        font-size: 0.9em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 36em !important;
-        height: 24em !important;
-    }
-
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 38em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 15em !important;
-        height: 15em !important;
-    }
-
-
-
-    #dn-box {
-        width: 37em !important;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-
-    .menubtn {
-        font-size: 0.8em !important;
-    }
-
-    #logo {
-        width: 8em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.5em !important;
-    }
-
-    .numscttitle {
-        font-size: 0.9em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.4em !important;
-    }
-
-    .workcard {
-        width: 10em !important;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.7em 3em 0.7em !important;
-        font-size: 1em !important;
-    }
-
-    .productcontainer {
-        width: 14em !important;
-    }
-
-    .productcontainerimg {
-        height: 9em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 1.2em !important;
-    }
-
-    .gallerysct {
-        width: 36em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 14em !important;
-        height: 10em !important;
-    }
-
-    .p-banner-box {
-        width: 34em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 34em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 14em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 38em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em !important;
-        height: 23em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 34em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 34em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% !important;
-    }
-
-
-
-
-
-    #p-productsctslide-container {
-        width: 34em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 34em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 34em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 34em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em !important;
-        text-align: center !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 34em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 24em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 37em !important;
-    }
-
-    #g-gallery-container img {
-        width: 15em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 35em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 35em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 34em !important;
-        height: 24em !important;
-    }
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 35em !important;
-    }
-
-}
-
-
-@media screen and (max-width: 600px) {
-    .p-banner-box {
-        width: 30em !important;
-    }
-
-
-
-    #g-gallery-container {
-        width: 34em !important;
-    }
-
-    #g-gallery-container img {
-        width: 15em !important;
-    }
-
-
-
-
-
-    #warranty-txtbox {
-        width: 32em !important;
-    }
-
-
-
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 30em !important;
-        height: 22em !important;
-        border-radius: 0.4em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 32em !important;
-    }
-
-    #dn-box {
-        width: 33em !important;
-    }
-
-
-
-    footer {
-        font-size: 0.6em !important;
-    }
-}
-
-@media screen and (max-width:576px) {
-
-    .menubtn {
-        font-size: 0.7em !important;
-    }
-
-    #logo {
-        width: 7em !important;
-    }
-
-    .scttitle-dark {
-        font-size: 1.6em !important;
-    }
-
-
-    .scttitle-light {
-        font-size: 1em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.4em !important;
-    }
-
-    .numscttitle {
-        font-size: 0.7em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.1em !important;
-    }
-
-    #numsct {
-        width: 73% !important;
-    }
-
-    .icon {
-        width: 4em !important;
-        height: 4em !important;
-        bottom: -2.5em !important;
-    }
-
-    .workcard {
-        width: 9em !important;
-    }
-
-    .workcardcontent {
-        padding: 4em 0.5em 3em 0.5em !important;
-        font-size: 0.9em !important;
-    }
-
-    .workcardimg {
-        height: 5em !important;
-    }
-
-    .productcontainer {
-        width: 12em !important;
-    }
-
-    .productcontainerimg {
-        height: 8em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 0.9em !important;
-    }
-
-    .p-box-100 {
-        width: 90% !important;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 25em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 20em !important;
-        height: 13em !important;
-    }
-
-    .gallerybtn {
-        font-size: 1.1em !important;
-    }
-
-    .p-banner-box {
-        width: 29em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 30em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 13em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 30em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em !important;
-        height: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 32em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 32em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em !important;
-        width: 32em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 32em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 32em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em !important;
-        text-align: center !important;
-    }
-
-
-
-    #p-productsct-advantage {
-        width: 32em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 23em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.5em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.4em !important;
-    }
-
-
-
-    .g-gallery-container-section-title {
-        font-size: 1.3em;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.1em !important;
-    }
-
-    #g-gallery-container {
-        width: 30em !important;
-    }
-
-    #g-gallery-container img {
-        width: 13em !important;
-    }
-
-
-
-    #w-container {
-        width: 30em !important;
-    }
-
-    .w-infocontainer {
-        width: 30em !important;
-        font-size: 0.8em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 28em !important;
-        height: 18em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 30em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em !important;
-        height: 14em !important;
-    }
-
-
-    
-    footer {
-        flex-direction: column !important;
-        font-size: 0.7em !important;
-    }
-
-    .footer-box {
-        width: 90% !important;
-        padding: 0.3em;
-    }
-}
-
-@media screen and (max-width: 530px) {
-    .workcard {
-        width: 7.5em !important;
-    }
-
-    .p-banner-box {
-        width: 27.5em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 28em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 25em !important;
-    }
-
-    .p-productsctwindowdoor-container {
-        width: 29em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em !important;
-        height: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 28em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 28em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 25em !important;
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 30em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em !important;
-        text-align: center !important;
-    }
-
-
-
-    #p-productsct-advantage {
-        width: 28em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 20em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.5em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.4em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 28em !important;
-    }
-
-
-
-    #w-container {
-        width: 30em !important;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 28em !important;
-        height: 18em !important;
-    }
-
-
-
-    #w-container {
-        width: 28em !important;
-    }
-
-    .w-infocontainer {
-        width: 90% !important;
-        margin-bottom: 3em !important;
-        justify-content: center !important;
-        align-content: center !important;
-        border-left: 0.3em dotted rgb(58, 58, 58) !important;
-    }
-
-    .w-infobox {
-        border-bottom: 0;
-        flex-direction: row !important;
-        align-items: center !important;
-        justify-content: left !important;
-        font-size: 1em !important;
-    }
-
-    .w-logo-box {
-        padding: 0 !important;
-        width: 8%;
-    }
-
-    .w-txtbox {
-        align-items: flex-start !important;
-        justify-content: left !important;
-    }
-
-    .w-txtbox-txt {
-        text-align: left !important;
-    }
-
-    #w-maps {
-        width: 26em !important;
-        height: 20em !important;
-    }
-
-
-
-
-    #dn-box {
-        width: 30em !important;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .p-banner-box {
-        width: 26em !important;
-    }
-
-    .scttitle-dark {
-        font-size: 1em !important;
-    }
-
-    .scttxt-dark {
-        font-size: 0.7em !important;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 24em !important;
-    }
-
-    #g-gallery-container img {
-        width: 20em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 28em !important;
-    }
-
-    .w-logo-box {
-        width: 8% !important;
-    }
-
-    #w-maps {
-        width: 26em !important;
-        height: 20em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 28em !important;
-    }
-
-
-
-    #dn-box {
-        width: 28em !important;
-    }
-
-}
-
-@media screen and (max-width:470px) {
-
-    .menubtn {
-        font-size: 0.6em !important;
-    }
-
-    #logo {
-        width: 6em !important;
-    }
-
-    .scttitle-dark {
-        font-size: 1.3em !important;
-    }
-
-
-    .scttitle-light {
-        font-size: 1.3em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.2em !important;
-        margin: 0.8em;
-    }
-
-    .numscttitle {
-        font-size: 0.9em !important;
-    }
-
-    .numsctnum {
-        font-size: 1.1em !important;
-    }
-
-    #numsct {
-        width: 73% !important;
-    }
-
-    .icon {
-        width: 3.5em !important;
-        height: 3.5em !important;
-        bottom: -2em !important;
-    }
-
-    .workcard {
-        width: 15em !important;
-        border-radius: 1em;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.5em 2em 0.5em !important;
-        font-size: 0.9em !important;
-    }
-
-    .workcardimg {
-        height: 7em !important;
-    }
-
-    .productcontainer {
-        width: 15em !important;
-    }
-
-    .productcontainerimg {
-        height: 7em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 1.1em !important;
-    }
-
-    .p-box-100 {
-        width: 90% !important;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 25em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 15em !important;
-        height: 10em !important;
-    }
-
-    .gallerybtn {
-        font-size: 1.1em !important;
-    }
-
-    .p-banner-box {
-        width: 22em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 23em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 19em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em !important;
-        height: 24em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 23em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 25em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% !important;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 18em !important;
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 23em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-
-    #p-productsct-advantage {
-        width: 22em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 20em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 24em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 24em !important;
-    }
-
-    #w-maps {
-        width: 24em !important;
-        height: 18em !important;
-    }
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 23em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em !important;
-        height: 14em !important;
-    }
-}
-
-@media screen and (max-width:400px) {
-
-    .menubtn {
-        font-size: 0.7em !important;
-    }
-
-    #logo {
-        width: 5em !important;
-    }
-
-    .scttitle-dark {
-        font-size: 1.3em !important;
-    }
-
-
-    .scttitle-light {
-        font-size: 1.3em !important;
-    }
-
-    #firstscttxt {
-        font-size: 1.1em !important;
-        margin: 0.8em;
-    }
-
-    .numscttitle {
-        font-size: 0.7em !important;
-    }
-
-    .numsctnum {
-        font-size: 0.9em !important;
-    }
-
-    #numsct {
-        width: 73% !important;
-    }
-
-    .icon {
-        width: 3.5em !important;
-        height: 3.5em !important;
-        bottom: -2em !important;
-    }
-
-    .workcard {
-        width: 15em !important;
-        border-radius: 1em;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.5em 2em 0.5em !important;
-        font-size: 0.9em !important;
-    }
-
-    .workcardimg {
-        height: 4em !important;
-    }
-
-    .productcontainer {
-        width: 15em !important;
-    }
-
-    .productcontainerimg {
-        height: 7em !important;
-    }
-
-    .productcontainertitle {
-        font-size: 1.1em !important;
-    }
-
-    .p-box-100 {
-        width: 90% !important;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 20em !important;
-    }
-
-    .gallerybox {
-        margin: 1em !important;
-        width: 17em !important;
-        height: 12em !important;
-    }
-
-    .gallerybtn {
-        font-size: 0.9em !important;
-    }
-
-    .p-banner-box {
-        width: 20em !important;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 20em !important;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 18em !important;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 21em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em !important;
-        height: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em !important;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 1.8em !important;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.2em !important;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% !important;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 20em !important;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 16em !important;
-        width: 20em !important;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 20em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 20em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em !important;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em !important;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 20em !important;
-    }
-
-    .p-productsct-advantage-box {
-        width: 18em !important;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em !important;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em !important;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em !important;
-    }
-
-
-    .g-gallery-container-section-title {
-        font-size: 1em;
-    }
-
-    #g-gallery-container {
-        width: 20em !important;
-    }
-
-    #g-gallery-container img {
-        width: 17em !important;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 20em !important;
-    }
-
-
-
-
-    #w-container {
-        width: 20em !important;
-    }
-
-    #w-maps {
-        width: 20em !important;
-        height: 16em !important;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 20em !important;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em !important;
-        height: 14em !important;
-    }
-
-
-
-    #dn-box {
-        width: 20em !important;
-    }
-}
-
 html {
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -3966,7 +699,7 @@ nav {
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
-    border-radius: 0.7em; 
+    border-radius: 0.5em; 
     margin: 0 0 1em 0;
 }
 
@@ -4170,7 +903,8 @@ nav {
 #p-productsctwindowdoor-profiletype-popup {
     display: none;
     position: fixed;
-    overflow: hidden;
+    overflow: auto;
+    max-height: 100%;
     top: 1em;
     flex-direction: column;
     align-items: center;
@@ -4667,3 +1401,3269 @@ footer {
     color: rgb(163, 163, 163);
 }
 
+@media (max-width: 1200px) {
+    .gallerysct {
+        width: 68em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 14em ;
+        height: 10em ;
+    }
+
+    .p-banner-box {
+        width: 70em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 70em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 15em ;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .workcard {
+        width: 12.5em ;
+    }
+
+    .productcontainer {
+        width: 18em ;
+        height: 100% ;
+    }
+
+    .p-banner-box {
+        width: 60em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 62em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 13em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 62em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 17em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.4em;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 64em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 26em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.3em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 80% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 64em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 32em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 32em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 64em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 18em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.7em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.1em ;
+    }
+
+
+
+
+
+    #g-gallery-container {
+        width: 66em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 66em ;
+    }
+
+
+
+
+
+
+    #w-container {
+        width: 66em ;
+    }
+
+    .w-infocontainer {
+        width: 31em ;
+    }
+
+    #w-maps {
+        width: 31em ;
+        height: 34em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 66em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 19em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 44em ;
+    }
+
+
+
+    #dn-box {
+        width: 66em ;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+
+    .scttitle-dark {
+        font-size: 1.9em ;
+    }
+
+    .scttxt-dark {
+        font-size: 1.4em ;
+    }
+
+
+
+    #firstscttxt {
+        font-size: 2.7em ;
+    }
+
+    .workcard {
+        width: 12em ;
+    }
+
+    .workcardcontent {
+        padding: 5.5em 1em 5.5em 1em ;
+    }
+
+    .productcontainer {
+        width: 18em ;
+        height: 100% ;
+    }
+
+    .gallerysct {
+        width: 64em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 13em ;
+        height: 10em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 62em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 26em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.3em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 80% ;
+    }
+
+
+
+
+
+    #g-gallery-container {
+        width: 64em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 63em ;
+    }
+
+
+
+
+
+    #w-container {
+        width: 63em ;
+    }
+
+    .w-infocontainer {
+        width: 30em ;
+    }
+
+    #w-maps {
+        width: 30em ;
+        height: 35em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 63em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 18em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 42em ;
+    }
+
+
+
+    #dn-box {
+        width: 63em ;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+
+    .workcard {
+        width: 11em ;
+    }
+
+    .workcardcontent {
+        padding: 5em 1em 5em 1em ;
+        font-size: 1em ;
+    }
+
+    .productcontainer {
+        width: 17em ;
+        height: 100% ;
+    }
+
+    .p-banner-box {
+        width: 58em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 60em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 13em ;
+    }
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 60em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 26em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.3em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 75% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 60em ;
+        order: 2;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+    #p-productsct-advantage {
+        width: 58em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 17em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.7em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.1em ;
+    }
+
+
+
+
+    #g-gallery-container {
+        width: 60em ;
+    }
+
+    .g-gallery-container-section-title {
+        font-size: 1.5em ;
+    }
+
+    #g-gallery-container img {
+        width: 16em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 58em ;
+    }
+
+
+
+
+    #w-container {
+        width: 61em ;
+    }
+
+    .w-infocontainer {
+        width: 30em ;
+    }
+
+    #w-maps {
+        width: 30em ;
+        height: 35em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 60em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 18em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 40em ;
+    }
+
+
+
+    #dn-box {
+        width: 60em ;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .scttitle-dark {
+        font-size: 1.4em ;
+    }
+
+    .scttxt-dark {
+        font-size: 1.2em ;
+    }
+
+    #menu {
+        font-size: 1em ;
+    }
+
+    #firstscttxt {
+        font-size: 2.3em ;
+    }
+
+    .numscttitle {
+        font-size: 1.2em ;
+    }
+
+    .numsctnum {
+        font-size: 1.8em ;
+    }
+
+    #numsct {
+        width: 80% ;
+    }
+
+    .icon {
+        width: 4em ;
+        height: 4em ;
+        bottom: -2em ;
+    }
+
+    .productcontainer {
+        width: 16em ;
+    }
+
+    .productcontainertitle {
+        font-size: 1.3em ;
+    }
+
+    .p-box-100 {
+        width: 80% ;
+    }
+
+    .p-box-50 {
+        width: 10em;
+    }
+
+    .p-box-25 {
+        width: 10em;
+    }
+
+    .p-box-33 {
+        width: 10em;
+    }
+
+    .gallerysct {
+        width: 56em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 22em ;
+        height: 15em ;
+    }
+
+    .p-banner-box {
+        width: 56em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 58em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 12em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 60em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 16em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.4em;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em;
+    }
+
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 58em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 24em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.3em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 75% ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 56em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 16em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.6em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.1em ;
+    }
+
+
+
+
+
+    #g-gallery-container {
+        width: 58em ;
+    }
+
+    #g-gallery-container img {
+        width: 16em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 58em ;
+    }
+
+
+
+
+    #w-container {
+        width: 58em ;
+    }
+
+    .w-infocontainer {
+        width: 28em ;
+    }
+
+    #w-maps {
+        width: 28em ;
+        height: 36em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 58em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 25em ;
+        height: 25em ;
+        order: 2 ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 90% ;
+        order: 1 ;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .scttitle-light {
+        font-size: 1.8em ;
+    }
+
+    .workcard {
+        width: 10em ;
+    }
+
+    .workcardcontent {
+        padding: 5em 1em 5em 1em ;
+        font-size: 1em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 56em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 15em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.4em;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 56em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 24em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.3em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 75% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 56em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 28em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 28em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 28em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.5em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    #g-gallery-container {
+        width: 56em ;
+    }
+
+    #g-gallery-container img {
+        width: 16em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 54em ;
+    }
+
+
+
+    .w-logo {
+        width: 90% ;
+    }
+
+    #w-container {
+        width: 54em ;
+    }
+
+    .w-infocontainer {
+        width: 30em ;
+    }
+
+    #w-maps {
+        width: 20em ;
+        height: 36em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 54em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 22em ;
+        height: 22em ;
+        order: 2 ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 90% ;
+        order: 1 ;
+    }
+
+
+
+    #dn-box {
+        width: 54em ;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .productcontainer {
+        width: 15em ;
+    }
+
+
+    .p-banner-box {
+        width: 54em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 56em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 24em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 54em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 22em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.1em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 75% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 54em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 26em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 26em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 26em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 54em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 16em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.5em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.35em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.1em ;
+    }
+
+
+
+
+    #g-gallery-container {
+        width: 54em ;
+    }
+
+    #g-gallery-container img {
+        width: 15em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 52em ;
+    }
+
+
+
+
+
+
+    #w-container {
+        width: 54em ;
+    }
+
+    .w-infocontainer {
+        width: 90% ;
+        border-left: none ;
+        margin-bottom: 1em;
+    }
+
+    .w-infobox {
+        border-bottom: 0.22em dotted rgb(58, 58, 58);
+        flex-direction: column ;
+        align-items: center ;
+        justify-content: center ;
+    }
+
+    .w-logo-box {
+        padding: 1em 0 0 0 ;
+        width: 5%;
+    }
+
+    .w-txtbox {
+        justify-content: center ;
+        align-items: center ;
+    }
+
+    .w-txtbox-txt {
+        text-align: center ;
+    }
+
+    #w-maps {
+        width: 52em ;
+        height: 30em ;
+    }
+
+
+
+
+    #dn-box {
+        width: 52em ;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    #menu {
+        font-size: 0.9em ;
+    }
+
+    #firstscttxt {
+        font-size: 2em ;
+    }
+
+    .numscttitle {
+        font-size: 1.1em ;
+    }
+
+    .numsctnum {
+        font-size: 1.7em ;
+    }
+
+    .workcard {
+        width: 9.5em ;
+    }
+
+    .workcardcontent {
+        padding: 4em 1em 4em 1em ;
+        font-size: 1em ;
+    }
+
+    .productcontainer {
+        width: 20em ;
+    }
+
+    .gallerysct {
+        width: 52em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 20em ;
+        height: 14em ;
+    }
+
+    .p-banner-box {
+        width: 50em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 52em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 20em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 54em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 14em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.4em;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 52em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 22em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.1em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 75% ;
+    }
+
+
+
+
+
+    #p-productsct-advantage {
+        width: 52em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 15em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.4em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1em ;
+    }
+
+
+    #g-gallery-container {
+        width: 52em ;
+    }
+
+    #g-gallery-container img {
+        width: 15em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 50em ;
+    }
+
+
+
+
+    #w-container {
+        width: 50em ;
+    }
+
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 48em ;
+        height: 28em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 50em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 22em ;
+        height: 22em ;
+        order: 2 ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-txtbox {
+        width: 90% ;
+        order: 1 ;
+    }
+
+
+
+
+    #dn-box {
+        width: 52em ;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .scttxt-dark {
+        font-size: 1.2em ;
+    }
+
+    .p-banner-box {
+        width: 48em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 50em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 18em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 52em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 13em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 50em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 20em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 100% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 50em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 34em ;
+        width: 24em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 24em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 24em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 50em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 14em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.4em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1em ;
+    }
+
+
+
+    #g-gallery-container {
+        width: 50em ;
+    }
+
+    #g-gallery-container img {
+        width: 14em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 48em ;
+    }
+
+
+
+
+
+
+    #w-container {
+        width: 48em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 46em ;
+        height: 28em ;
+    }
+
+
+
+    #dn-box {
+        width: 48em ;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+
+    .menubtn {
+        font-size: 1.1em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.9em ;
+    }
+
+    #logo {
+        width: 9em ;
+    }
+
+    .numscttitle {
+        font-size: 1em ;
+    }
+
+    .numsctnum {
+        font-size: 1.6em ;
+    }
+
+    .workcard {
+        padding: 1em ;
+        width: 40% ;
+    }
+
+    .icon {
+        width: 5em ;
+        height: 5em ;
+        bottom: -2.5em ;
+    }
+
+    .workcard {
+        width: 14em ;
+    }
+
+    .workcardcontent {
+        padding: 3em 1em 3em 1em ;
+        font-size: 1em ;
+    }
+
+    .productcontainer {
+        width: 18em ;
+    }
+
+    .productcontainerimg {
+        height: 10em ;
+    }
+
+    .productcontainertitle {
+        font-size: 1.3em ;
+    }
+
+    .gallerysct {
+        width: 44em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 17em ;
+        height: 12em ;
+    }
+
+    .p-banner-box {
+        width: 48em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 51em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 13em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 48em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 20em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 100% ;
+    }
+
+
+
+    #p-productsct-advantage {
+        width: 48em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 14em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.4em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1em ;
+    }
+
+
+
+    #g-gallery-container {
+        width: 48em ;
+    }
+
+    #g-gallery-container img {
+        width: 13em ;
+    }
+
+
+
+    #w-container {
+        width: 44em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 42em ;
+        height: 26em ;
+    }
+
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 44em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 20em ;
+        height: 20em ;
+    }
+
+
+
+    #dn-box {
+        width: 44em ;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .p-banner-box {
+        width: 48em ;
+    }
+
+    .p-banner-box {
+        width: 43em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 46em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 18em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 46em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 12em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 46em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 46em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 50% ;
+    }
+
+
+
+    #p-productsctslide-container {
+        width: 48em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 34em ;
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 24em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 46em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 25em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.4em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1em ;
+    }
+
+
+
+    #g-gallery-container {
+        width: 46em ;
+    }
+
+    #g-gallery-container img {
+        width: 13em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 46em ;
+    }
+
+
+
+
+    #dn-box {
+        width: 46em ;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .menubtn {
+        font-size: 1em ;
+    }
+
+    .p-banner-box {
+        width: 40em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 42em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 15em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 44em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 11em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 42em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 42em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 50% ;
+    }
+
+
+
+    #p-productsctslide-container {
+        width: 44em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 42em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 44em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 40em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+        text-align: center ;
+        padding: 1em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 42em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 25em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.4em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1em ;
+    }
+
+    .g-gallery-container-section-title {
+        font-size: 1.5em ;
+    }
+
+    #g-gallery-container {
+        width: 44em ;
+    }
+
+    #g-gallery-container img {
+        width: 12em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 42em ;
+    }
+
+
+
+
+    #w-container {
+        width: 42em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 40em ;
+        height: 26em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 42em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 20em ;
+        height: 20em ;
+    }
+
+
+
+    #dn-box {
+        width: 42em ;
+    }
+
+    
+
+    footer {
+        font-size: 0.7em ;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .scttxt-dark {
+        font-size: 0.9em ;
+    }
+
+    .menubtn {
+        font-size: 0.9em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.7em ;
+    }
+
+    .icon {
+        width: 4.5em ;
+        height: 4.5em ;
+        bottom: -2.5em ;
+    }
+
+    .workcard {
+        width: 12em ;
+    }
+
+    .workcardcontent {
+        padding: 3em 0.7em 3em 0.7em ;
+        font-size: 1em ;
+    }
+
+    .numscttitle {
+        font-size: 1em ;
+    }
+
+    .numsctnum {
+        font-size: 1.5em ;
+    }
+
+    .productcontainer {
+        width: 16em ;
+    }
+
+    .productcontainerimg {
+        height: 10em ;
+    }
+
+    .gallerysct {
+        width: 38em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 15em ;
+        height: 10em ;
+    }
+
+    .p-banner-box {
+        width: 37em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 38em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 14em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 40em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 10em ;
+        height: 20em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 40em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 40em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 50% ;
+    }
+
+
+
+    #p-productsctslide-container {
+        width: 40em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 28em ;
+        width: 38em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 38em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 37em ;
+        padding: 1em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 36em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 26em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.2em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+    .g-gallery-container-section-title {
+        font-size: 1.5em ;
+    }
+
+    #g-gallery-container {
+        width: 40em ;
+    }
+
+    .g-gallery-container-section-title {
+        font-size: 1.3em ;
+    }
+
+    #g-gallery-container img {
+        width: 16em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 38em ;
+    }
+
+
+
+
+    #w-container {
+        width: 38em ;
+    }
+
+    .w-infocontainer {
+        font-size: 0.9em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 36em ;
+        height: 24em ;
+    }
+
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 38em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 15em ;
+        height: 15em ;
+    }
+
+
+
+    #dn-box {
+        width: 37em ;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .menubtn {
+        font-size: 0.8em ;
+    }
+
+    #logo {
+        width: 8em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.5em ;
+    }
+
+    .numscttitle {
+        font-size: 0.9em ;
+    }
+
+    .numsctnum {
+        font-size: 1.4em ;
+    }
+
+    .workcard {
+        width: 10em ;
+    }
+
+    .workcardcontent {
+        padding: 3em 0.7em 3em 0.7em ;
+        font-size: 1em ;
+    }
+
+    .productcontainer {
+        width: 14em ;
+    }
+
+    .productcontainerimg {
+        height: 9em ;
+    }
+
+    .productcontainertitle {
+        font-size: 1.2em ;
+    }
+
+    .gallerysct {
+        width: 36em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 14em ;
+        height: 10em ;
+    }
+
+    .p-banner-box {
+        width: 34em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 34em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 14em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 38em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 15em ;
+        height: 23em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 34em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 34em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 70% ;
+    }
+
+
+
+
+
+    #p-productsctslide-container {
+        width: 34em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 34em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 34em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 34em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.4em ;
+        text-align: center ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 34em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 24em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.1em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+
+    #g-gallery-container {
+        width: 37em ;
+    }
+
+    #g-gallery-container img {
+        width: 15em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 35em ;
+    }
+
+
+
+
+    #w-container {
+        width: 35em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 34em ;
+        height: 24em ;
+    }
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 35em ;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .p-banner-box {
+        width: 30em ;
+    }
+
+
+
+    #g-gallery-container {
+        width: 34em ;
+    }
+
+    #g-gallery-container img {
+        width: 15em ;
+    }
+
+
+
+
+
+    #warranty-txtbox {
+        width: 32em ;
+    }
+
+
+
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 30em ;
+        height: 22em ;
+        border-radius: 0.4em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 32em ;
+    }
+
+    #dn-box {
+        width: 33em ;
+    }
+
+
+
+    footer {
+        font-size: 0.6em ;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .menubtn {
+        font-size: 0.7em ;
+    }
+
+    #logo {
+        width: 7em ;
+    }
+
+    .scttitle-dark {
+        font-size: 1.6em ;
+    }
+
+
+    .scttitle-light {
+        font-size: 1em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.4em ;
+    }
+
+    .numscttitle {
+        font-size: 0.7em ;
+    }
+
+    .numsctnum {
+        font-size: 1.1em ;
+    }
+
+    #numsct {
+        width: 73% ;
+    }
+
+    .icon {
+        width: 4em ;
+        height: 4em ;
+        bottom: -2.5em ;
+    }
+
+    .workcard {
+        width: 9em ;
+    }
+
+    .workcardcontent {
+        padding: 4em 0.5em 3em 0.5em ;
+        font-size: 0.9em ;
+    }
+
+    .workcardimg {
+        height: 5em ;
+    }
+
+    .productcontainer {
+        width: 12em ;
+    }
+
+    .productcontainerimg {
+        height: 8em ;
+    }
+
+    .productcontainertitle {
+        font-size: 0.9em ;
+    }
+
+    .p-box-100 {
+        width: 90% ;
+    }
+
+    .p-box-50 {
+        width: 10em;
+    }
+
+    .p-box-25 {
+        width: 10em;
+    }
+
+    .p-box-33 {
+        width: 10em;
+    }
+
+    .gallerysct {
+        width: 25em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 20em ;
+        height: 13em ;
+    }
+
+    .gallerybtn {
+        font-size: 1.1em ;
+    }
+
+    .p-banner-box {
+        width: 29em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 30em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 13em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 30em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 10em ;
+        height: 22em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 32em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 32em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 70% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 30em ;
+        width: 32em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 32em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 32em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.4em ;
+        text-align: center ;
+    }
+
+
+
+    #p-productsct-advantage {
+        width: 32em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 23em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.1em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.5em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.4em ;
+    }
+
+
+
+    .g-gallery-container-section-title {
+        font-size: 1.3em;
+    }
+
+    .g-gallery-container-section-title {
+        font-size: 1.1em ;
+    }
+
+    #g-gallery-container {
+        width: 30em ;
+    }
+
+    #g-gallery-container img {
+        width: 13em ;
+    }
+
+
+
+    #w-container {
+        width: 30em ;
+    }
+
+    .w-infocontainer {
+        width: 30em ;
+        font-size: 0.8em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 28em ;
+        height: 18em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 30em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 14em ;
+        height: 14em ;
+    }
+
+
+    
+    footer {
+        flex-direction: column ;
+        font-size: 0.7em ;
+    }
+
+    .footer-box {
+        width: 90% ;
+        padding: 0.3em;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .workcard {
+        width: 7.5em ;
+    }
+
+    .p-banner-box {
+        width: 27.5em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 28em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 25em ;
+    }
+
+    .p-productsctwindowdoor-container {
+        width: 29em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 10em ;
+        height: 22em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 28em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 28em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2.2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.6em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 70% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 25em ;
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 30em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.4em ;
+        text-align: center ;
+    }
+
+
+
+    #p-productsct-advantage {
+        width: 28em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 20em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.1em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.5em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.4em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 28em ;
+    }
+
+
+
+    #w-container {
+        width: 30em ;
+    }
+
+    .w-logo-box {
+        width: 5%;
+    }
+
+    #w-maps {
+        width: 28em ;
+        height: 18em ;
+    }
+
+
+
+    #w-container {
+        width: 28em ;
+    }
+
+    .w-infocontainer {
+        width: 90% ;
+        margin-bottom: 3em ;
+        justify-content: center ;
+        align-content: center ;
+        border-left: 0.3em dotted rgb(58, 58, 58) ;
+    }
+
+    .w-infobox {
+        border-bottom: 0;
+        flex-direction: row ;
+        align-items: center ;
+        justify-content: left ;
+        font-size: 1em ;
+    }
+
+    .w-logo-box {
+        padding: 0 ;
+        width: 8%;
+    }
+
+    .w-txtbox {
+        align-items: flex-start ;
+        justify-content: left ;
+    }
+
+    .w-txtbox-txt {
+        text-align: left ;
+    }
+
+    #w-maps {
+        width: 26em ;
+        height: 20em ;
+    }
+
+
+
+
+    #dn-box {
+        width: 30em ;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .p-banner-box {
+        width: 26em;
+    }
+
+    .scttitle-dark {
+        font-size: 1em ;
+    }
+
+    .scttxt-dark {
+        font-size: 0.7em ;
+    }
+
+
+
+
+
+    #g-gallery-container {
+        width: 24em ;
+    }
+
+    #g-gallery-container img {
+        width: 20em ;
+    }
+
+
+
+
+    #w-container {
+        width: 28em ;
+    }
+
+    .w-logo-box {
+        width: 8% ;
+    }
+
+    #w-maps {
+        width: 26em ;
+        height: 20em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 28em ;
+    }
+
+
+
+    #dn-box {
+        width: 28em ;
+    }
+
+}
+
+@media screen and (max-width:470px) {
+
+    .menubtn {
+        font-size: 0.6em ;
+    }
+
+    #logo {
+        width: 6em ;
+    }
+
+    .scttitle-dark {
+        font-size: 1.3em ;
+    }
+
+
+    .scttitle-light {
+        font-size: 1.3em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.2em ;
+        margin: 0.8em;
+    }
+
+    .numscttitle {
+        font-size: 0.9em ;
+    }
+
+    .numsctnum {
+        font-size: 1.1em ;
+    }
+
+    #numsct {
+        width: 73% ;
+    }
+
+    .icon {
+        width: 3.5em ;
+        height: 3.5em ;
+        bottom: -2em ;
+    }
+
+    .workcard {
+        width: 15em ;
+        border-radius: 1em;
+    }
+
+    .workcardcontent {
+        padding: 3em 0.5em 2em 0.5em ;
+        font-size: 0.9em ;
+    }
+
+    .workcardimg {
+        height: 7em ;
+    }
+
+    .productcontainer {
+        width: 15em ;
+    }
+
+    .productcontainerimg {
+        height: 7em ;
+    }
+
+    .productcontainertitle {
+        font-size: 1.1em ;
+    }
+
+    .p-box-100 {
+        width: 90% ;
+    }
+
+    .p-box-50 {
+        width: 10em;
+    }
+
+    .p-box-25 {
+        width: 10em;
+    }
+
+    .p-box-33 {
+        width: 10em;
+    }
+
+    .gallerysct {
+        width: 25em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 15em ;
+        height: 10em ;
+    }
+
+    .gallerybtn {
+        font-size: 1.1em ;
+    }
+
+    .p-banner-box {
+        width: 22em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 23em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 19em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 22em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 15em ;
+        height: 24em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 23em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 25em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 2em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 80% ;
+    }
+
+
+
+
+    #p-productsctslide-container {
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 18em ;
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 23em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+
+    #p-productsct-advantage {
+        width: 22em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 20em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.1em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+    #warranty-txtbox {
+        width: 24em ;
+    }
+
+
+
+
+    #w-container {
+        width: 24em ;
+    }
+
+    #w-maps {
+        width: 24em ;
+        height: 18em ;
+    }
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 23em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 14em ;
+        height: 14em ;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .menubtn {
+        font-size: 0.7em ;
+    }
+
+    #logo {
+        width: 5em ;
+    }
+
+    .scttitle-dark {
+        font-size: 1.3em ;
+    }
+
+
+    .scttitle-light {
+        font-size: 1.3em ;
+    }
+
+    #firstscttxt {
+        font-size: 1.1em ;
+        margin: 0.8em;
+    }
+
+    .numscttitle {
+        font-size: 0.7em ;
+    }
+
+    .numsctnum {
+        font-size: 0.9em ;
+    }
+
+    #numsct {
+        width: 73% ;
+    }
+
+    .icon {
+        width: 3.5em ;
+        height: 3.5em ;
+        bottom: -2em ;
+    }
+
+    .workcard {
+        width: 15em ;
+        border-radius: 1em;
+    }
+
+    .workcardcontent {
+        padding: 3em 0.5em 2em 0.5em ;
+        font-size: 0.9em ;
+    }
+
+    .workcardimg {
+        height: 4em ;
+    }
+
+    .productcontainer {
+        width: 15em ;
+    }
+
+    .productcontainerimg {
+        height: 7em ;
+    }
+
+    .productcontainertitle {
+        font-size: 1.1em ;
+    }
+
+    .p-box-100 {
+        width: 90% ;
+    }
+
+    .p-box-50 {
+        width: 10em;
+    }
+
+    .p-box-25 {
+        width: 10em;
+    }
+
+    .p-box-33 {
+        width: 10em;
+    }
+
+    .gallerysct {
+        width: 20em ;
+    }
+
+    .gallerybox {
+        margin: 1em ;
+        width: 17em ;
+        height: 12em ;
+    }
+
+    .gallerybtn {
+        font-size: 0.9em ;
+    }
+
+    .p-banner-box {
+        width: 20em ;
+    }
+
+    #p-productsctwindowdoor-specs {
+        width: 20em ;
+    }
+
+    .p-productsctwindowdoor-specs-box {
+        width: 18em ;
+    }
+
+
+
+    .p-productsctwindowdoor-container {
+        width: 21em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box {
+        width: 15em ;
+        height: 22em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-title {
+        font-size: 1.3em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-box-txt {
+        font-size: 1em ;
+    }
+
+
+
+
+    .p-productsctwindowdoor-profilecolor {
+        width: 22em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-box {
+        width: 22em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-title {
+        font-size: 1.8em ;
+    }
+
+    .p-productsctwindowdoor-profilecolor-txt {
+        font-size: 1.2em ;
+    }
+
+    #p-productsctwindowdoor-profilecolor-img {
+        width: 80% ;
+    }
+
+
+
+    #p-productsctslide-container {
+        width: 20em ;
+    }
+
+    #p-productsctslide-presentation-video {
+        height: 16em ;
+        width: 20em ;
+    }
+
+    #p-productsctslide-presentation-videobox {
+        width: 20em ;
+    }
+
+    #p-productsctslide-presentation-txtbox {
+        width: 20em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-title {
+        font-size: 1.4em ;
+    }
+
+    #p-productsctslide-presentation-txtbox-txt {
+        font-size: 1.2em ;
+    }
+
+
+
+
+    #p-productsct-advantage {
+        width: 20em ;
+    }
+
+    .p-productsct-advantage-box {
+        width: 18em ;
+    }
+
+    .p-productsct-advantage-logo {
+        width: 4.1em ;
+    }
+
+    .p-productsct-advantage-title {
+        font-size: 1.4em ;
+    }
+
+    .p-productsct-advantage-txt {
+        font-size: 1.2em ;
+    }
+
+
+    .g-gallery-container-section-title {
+        font-size: 1em;
+    }
+
+    #g-gallery-container {
+        width: 20em ;
+    }
+
+    #g-gallery-container img {
+        width: 17em ;
+    }
+
+
+
+    #warranty-txtbox {
+        width: 20em ;
+    }
+
+
+
+
+    #w-container {
+        width: 20em ;
+    }
+
+    #w-maps {
+        width: 20em ;
+        height: 16em ;
+    }
+
+
+
+
+    #p-productsctwindowdoor-profiletype-popup {
+        width: 20em ;
+    }
+
+    .p-productsctwindowdoor-profiletype-popup-img {
+        width: 14em ;
+        height: 14em ;
+    }
+
+
+
+    #dn-box {
+        width: 20em ;
+    }
+}

@@ -1,39 +1,30 @@
-let gallery_popup = document.querySelector('.gallery-popup');
-let gallery_btnexit = document.querySelector('#gallery-popup-exitbtn');
-let gallery_box = document.querySelector('.gallerybox');
-let images = document.querySelectorAll('.gallerybox');
+function getImages(sectionSelector, imageSrc, dataLightbox) {
 
-gallery_btnexit.addEventListener('click', () => {
-    gallery_popup.style.display = "none";
-});
+    // get a reference to the container element where the images will be added
+    let container = document.querySelector(`#${sectionSelector}`);
+    // define the URL of the image folder on your server
+    let imageUrl = imageSrc;
+    let lightbox = dataLightbox;
+    // make a request to the server to get a list of all the image files in the folder
+    fetch(imageUrl)
+        .then(response => response.text())
+        .then(html => {
+            // create a temporary div element to hold the HTML returned by the server
+            let tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
 
-document.onkeydown = function(evt) {
-    evt = evt || window.event;
-    var isEscape = false;
-    if ("key" in evt) {
-        isEscape = (evt.key === "Escape" || evt.key === "Esc");
-    } else {
-        isEscape = (evt.keyCode === 27);
-    }
-    if (isEscape) {
-        gallery_popup.style.display = "none";
-    }
+            // select all the <a> elements in the temporary div that link to image files
+            let imageLinks = tempDiv.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"]');
+
+            // loop through the <a> elements and dynamically generate HTML code for each image
+            for (let i = 0; i < imageLinks.length; i++) {
+                let imageSrc = imageLinks[i].getAttribute('href');
+                let imageHtml = '<a href="' + imageSrc + '" data-lightbox= "'+ lightbox +'" ><img src="' + imageSrc + '"></a>';
+                container.innerHTML += imageHtml;
+            };
+        });
 };
 
-function currentslide(n) {
-
-};
-
-function popup() {
-    gallery_popup.style.display = "flex";
-    console.log("sal"); 
-    for (i = 0; i<= images.length); i++ {
-        console.log(image[i])
-    }
-};
-
-
-/*gallery_box.addEventListener('onclick', () => {
-    gallery_popup.style.display = "flex";
-    console.log("sal");
-});*/
+getImages('g-sct-HanulAncutei','imgsite/imgsite-galerie/Hanul\ Ancutei/', 'HanulAncutei');
+getImages('g-sct-cabana','imgsite/imgsite-galerie/Cabana', 'cabana');
+getImages('g-sct-others','imgsite/imgsite-galerie/OthersImg', 'others');
