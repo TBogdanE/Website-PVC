@@ -24,7 +24,8 @@ function getImages(sectionSelector, imageSrc, dataLightbox) {
             };
         });
 };
-
+window.addEventListener('load', function() {
 getImages('g-sct-HanulAncutei','imgsite/imgsite-galerie/Hanul\ Ancutei/', 'HanulAncutei');
 getImages('g-sct-cabana','imgsite/imgsite-galerie/Cabana', 'cabana');
 getImages('g-sct-others','imgsite/imgsite-galerie/OthersImg', 'others');
+});
