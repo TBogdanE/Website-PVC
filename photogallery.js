@@ -21,7 +21,7 @@ function getImages(sectionSelector, imageSrc, dataLightbox) {
                 let imageSrc = imageLinks[i].getAttribute('href');
                 let imageHtml = '<a href="' + imageSrc + '" data-lightbox= "'+ lightbox +'" ><img src="' + imageSrc + '"></a>';
                 container.innerHTML += imageHtml;
-                console.log(`Addedimage ${i}`);
+                console.log(`Addedimage ${i} ${imageSrc}`);
             };
         });
 };
