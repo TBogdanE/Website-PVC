@@ -19,15 +19,18 @@ function getImages(sectionSelector, imageSrc, dataLightbox) {
             // loop through the <a> elements and dynamically generate HTML code for each image
             for (let i = 0; i < imageLinks.length; i++) {
                 let imageSrc = imageLinks[i].getAttribute('href');
-                let imageHtml = '<a href="' + imageSrc + '" data-lightbox= "'+ lightbox +'" ><img src="' + imageSrc + '"></a>';
+                let imageHtml = '<a href="' + imageSrc + '" data-lightbox= "' + lightbox + '" ><img src="' + imageSrc + '"></a>';
                 container.innerHTML += imageHtml;
                 console.log(`Addedimage ${i} ${imageSrc}`);
             };
         });
 };
 
-window.addEventListener('load', function() {
-getImages('g-sct-HanulAncutei','imgsite/imgsite-galerie/Hanul\ Ancutei/', 'HanulAncutei');
-getImages('g-sct-cabana','imgsite/imgsite-galerie/Cabana', 'cabana');
-getImages('g-sct-others','imgsite/imgsite-galerie/OthersImg', 'others');
+window.addEventListener('load', function () {
+    setTimeout(function () {
+        getImages('g-sct-HanulAncutei', 'imgsite/imgsite-galerie/Hanul Ancutei/', 'HanulAncutei');
+        getImages('g-sct-cabana', 'imgsite/imgsite-galerie/Cabana/', 'cabana');
+        getImages('g-sct-others', 'imgsite/imgsite-galerie/OthersImg/', 'others');
+    }, 10000);
 });
+
