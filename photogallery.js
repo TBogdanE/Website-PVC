@@ -21,9 +21,11 @@ function getImages(sectionSelector, imageSrc, dataLightbox) {
                 let imageSrc = imageLinks[i].getAttribute('href');
                 let imageHtml = '<a href="' + imageSrc + '" data-lightbox= "'+ lightbox +'" ><img src="' + imageSrc + '"></a>';
                 container.innerHTML += imageHtml;
+                console.log(`Addedimage ${i}`);
             };
         });
 };
+
 window.addEventListener('load', function() {
 getImages('g-sct-HanulAncutei','imgsite/imgsite-galerie/Hanul\ Ancutei/', 'HanulAncutei');
 getImages('g-sct-cabana','imgsite/imgsite-galerie/Cabana', 'cabana');
