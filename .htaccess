@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^acasa$ index.html [L]
+RewriteRule ^produse$ fereastra-relax-produse.html [L]
+RewriteRule ^galerie$ fereastra-relax-galerie.html [L]
+RewriteRule ^garantie$ fereastra-relax-garantie.html [L]
+RewriteRule ^produse$ fereastra-relax-produse.html [L]
+RewriteRule ^contact$ fereastra-relax-contact.html [L]
+RewriteRule ^despre noi$ fereastra-relax-despre-noi.html [L]
