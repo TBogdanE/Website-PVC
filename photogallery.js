@@ -6,6 +6,7 @@ fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
     const doc = parser.parseFromString(html, 'text/html');
     const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
     const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => link.replace('/imgsite/imgsite-galerie/Cabana/', 'https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/'));
+    console.log(imageUrls);
     
     // Update the HTML to display the images
     const container = document.querySelector('#g-sct-others');
