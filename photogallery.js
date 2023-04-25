@@ -23,7 +23,7 @@ function getImages(imgUrl, lightbox, containerId) {
         .catch(error => console.error(error));
 };
 
-getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Hanu\ Ancutei/', 'HanulAncutei', 'g-sct-HanulAncutei');
+getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/HanulAncutei/', 'HanulAncutei', 'g-sct-HanulAncutei');
 getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/', 'cabana', 'g-sct-cabana');
 getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/', 'others', 'g-sct-others');
 
