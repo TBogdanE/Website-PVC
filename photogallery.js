@@ -1,5 +1,5 @@
 function getImages(imgUrl, lightbox, containerId) {
-    fetch(imgUrl);
+    fetch(imgUrl)
   .then(response => response.text())
         .then(html => {
             // Parse the HTML to extract the image URLs
