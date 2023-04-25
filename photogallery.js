@@ -1,5 +1,5 @@
 function getImages(imgUrl, lightbox, containerId) {
-    fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/' + imgUrl);
+    fetch(imgUrl);
   .then(response => response.text())
         .then(html => {
             // Parse the HTML to extract the image URLs
@@ -22,8 +22,7 @@ function getImages(imgUrl, lightbox, containerId) {
         })
         .catch(error => console.error(error));
 };
-
-getImages('Cabana/', 'cabana', 'g-sct-cabana');
+getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/', 'cabana', 'g-sct-cabana');
 
 
 
