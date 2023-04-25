@@ -1,4 +1,4 @@
-fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
+fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/')
   .then(response => response.text())
   .then(html => {
     // Parse the HTML to extract the image URLs
