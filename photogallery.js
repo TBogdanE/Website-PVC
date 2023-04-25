@@ -6,7 +6,7 @@ function getImages(imgUrl, lightbox, containerId) {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
             const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-            const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => "https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/" + link.split('/').pop());
+            const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => imgUrl + link.split('/').pop());
 
             // Update the HTML to display the images
             const container = document.querySelector(`#${containerId}`);
@@ -23,7 +23,7 @@ function getImages(imgUrl, lightbox, containerId) {
         .catch(error => console.error(error));
 };
 
-//getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Hanu\ Ancutei/', 'HanulAncutei', 'g-sct-HanulAncutei');
+getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Hanu\ Ancutei/', 'HanulAncutei', 'g-sct-HanulAncutei');
 getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/', 'cabana', 'g-sct-cabana');
 getImages('https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/', 'others', 'g-sct-others');
 
