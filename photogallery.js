@@ -1,25 +1,29 @@
-fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
+function getImages(imgUrl, lightbox, containerId) {
+    fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/' + imgUrl);
   .then(response => response.text())
-  .then(html => {
-    // Parse the HTML to extract the image URLs
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-    const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => "https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/" + link.split('/').pop());
-    
-    // Update the HTML to display the images
-    const container = document.querySelector('#g-sct-others');
-    imageUrls.forEach(url => {
-      const a = document.createElement('a');
-      a.href = url;
-      a.setAttribute('data-lightbox', 'others'); // add data-lightbox attribute to each <a> tag
-      const img = document.createElement('img');
-      img.src = url;
-      a.appendChild(img);
-      container.appendChild(a);
-    });
-  })
-  .catch(error => console.error(error));
+        .then(html => {
+            // Parse the HTML to extract the image URLs
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
+            const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => "https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/" + link.split('/').pop());
+
+            // Update the HTML to display the images
+            const container = document.querySelector(`#${containerId}`);
+            imageUrls.forEach(url => {
+                const a = document.createElement('a');
+                a.href = url;
+                a.setAttribute('data-lightbox', lightbox); // add data-lightbox attribute to each <a> tag
+                const img = document.createElement('img');
+                img.src = url;
+                a.appendChild(img);
+                container.appendChild(a);
+            });
+        })
+        .catch(error => console.error(error));
+};
+
+getImages('Cabana/', 'cabana', 'g-sct-cabana');
 
 
 
