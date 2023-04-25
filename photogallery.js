@@ -5,7 +5,7 @@ fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/')
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
     const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => "https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/" + link.split('/').pop());
+    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => "https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/" + link.split('/').pop());
     
     // Update the HTML to display the images
     const container = document.querySelector('#g-sct-others');
