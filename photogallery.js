@@ -16,7 +16,7 @@ fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
     });
   })
   .catch(error => console.error(error));
-r(error));
+
 
 
 
