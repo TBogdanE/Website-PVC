@@ -76,7 +76,6 @@ nav {
 }
 
 .menubtn:hover {
-    border-radius: 0;
     border-bottom: 0.1em solid rgb(58, 58, 58);
 }
 
