@@ -10,10 +10,13 @@ fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
     // Update the HTML to display the images
     const container = document.querySelector('#g-sct-others');
     imageUrls.forEach(url => {
+      const a = document.createElement('a');
+      a.href = url;
+      a.setAttribute('data-lightbox', 'others'); // add data-lightbox attribute to each <a> tag
       const img = document.createElement('img');
       img.src = url;
-      img.setAttribute('data-lightbox', 'others'); // add data-lightbox attribute to each image tag
-      container.appendChild(img);
+      a.appendChild(img);
+      container.appendChild(a);
     });
   })
   .catch(error => console.error(error));
