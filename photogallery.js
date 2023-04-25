@@ -1,24 +1,25 @@
 fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
-  .then(response => response.text())
-  .then(html => {
-    // Parse the HTML to extract the image URLs
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-    const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => link.replace('/imgsite/imgsite-galerie/Cabana/', 'https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/'));
-    console.log(`parser:${parser} \n doc:${doc} \n imageLinks:${imageLinks} \n imageUrls:${imageUrls}`);
-    
-    // Update the HTML to display the images
-    const container = document.querySelector('#g-sct-others');
-    imageUrls.forEach(url => {
-      const img = document.createElement('img');
-      img.src = url;
-      img.setAttribute('data-mfp-src', url);
-      const link = document.createElement('a');
-      link.href = url;
-      link.appendChild(img);
-      container.appendChild(link);
-      console.log(`img:${img} \n link:${link}`);
+    .then(response => response.text())
+    .then(html => {
+        // Parse the HTML to extract the image URLs
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
+        const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => link.replace('/imgsite/imgsite-galerie/Cabana/', 'https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/'));
+        console.log(`parser:${parser} \n doc:${doc} \n imageLinks:${imageLinks} \n imageUrls:${imageUrls}`);
+
+        // Update the HTML to display the images
+        const container = document.querySelector('#g-sct-others');
+        imageUrls.forEach(url => {
+            const img = document.createElement('img');
+            img.src = url;
+            img.setAttribute('data-mfp-src', url);
+            const link = document.createElement('a');
+            link.href = url;
+            link.appendChild(img);
+            container.appendChild(link);
+            console.log(`img:${img} \n link:${link}`);
+        });
     });
 
 
@@ -57,4 +58,5 @@ window.addEventListener('load', function() {
 getImages('g-sct-HanulAncutei','imgsite/imgsite-galerie/Hanul\ Ancutei/', 'HanulAncutei');
 getImages('g-sct-cabana','https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/', 'cabana');
 getImages('g-sct-others','https://fereastrarelax.ro/imgsite/imgsite-galerie/OthersImg/', 'others');
-}); */
+});
+*/
