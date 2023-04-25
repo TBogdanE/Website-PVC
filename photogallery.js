@@ -5,18 +5,19 @@ fetch('https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/')
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
     const imageLinks = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png'));
-    console.log(imageUrls);
+    const imageUrls = imageLinks.filter(link => link.endsWith('.jpg') || link.endsWith('.png')).map(link => link.replace('/imgsite/imgsite-galerie/Cabana/', 'https://fereastrarelax.ro/imgsite/imgsite-galerie/Cabana/'));
     
     // Update the HTML to display the images
     const container = document.querySelector('#g-sct-others');
     imageUrls.forEach(url => {
       const img = document.createElement('img');
       img.src = url;
-      container.appendChild(img);
+      img.setAttribute('data-mfp-src', url);
+      const link = document.createElement('a');
+      link.href = url;
+      link.appendChild(img);
+      container.appendChild(link);
     });
-  })
-  .catch(error => console.error(error));
 
 
 
