@@ -1,497 +1,512 @@
 :root {
-    --color-1: #186cb8;
-    --color-2: #2a9a9f;
-    --color-3: #f98d00;
-    --color-4: #e83611;
-    --color-5: #f1b211;
+  --color-1: #186cb8;
+  --color-2: #2a9a9f;
+  --color-3: #f98d00;
+  --color-4: #e83611;
+  --color-5: #f1b211;
 }
 
 html {
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: 0;
-    background: linear-gradient(rgba(200, 200, 200, .85), rgba(210, 210, 210, .85)), url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0;
+  background: linear-gradient(
+      rgba(200, 200, 200, 0.85),
+      rgba(210, 210, 210, 0.85)
+    ),
+    url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+  min-height: 100vh;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 1em;
-    align-items: center;
-    width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  width: 95%;
 }
 
 #logocontainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #logo {
-    display: block;
-    width: 11em;
-    opacity: 0.7;
+  display: block;
+  width: 11em;
+  opacity: 0.7;
 }
 
 #menucontainer {
-    display: flex;
+  display: flex;
 }
 
 #menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 2em;
-    font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2em;
+  font-size: 1em;
 }
 
 .menubtn {
-    background-color: transparent;
-    border-radius: 0.5em;
-    border-color: transparent;
-    padding: 0.3em;
-    color: rgb(58, 58, 58);
-    font-family: 'Gantari', sans-serif;
-    font-size: 1.1em;
-    transition: 0.3s;
-    cursor: pointer;
+  background-color: transparent;
+  border-radius: 0.5em;
+  border-color: transparent;
+  padding: 0.3em;
+  color: rgb(58, 58, 58);
+  font-family: "Gantari", sans-serif;
+  font-size: 1.1em;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .menubtn:hover {
-    border-bottom: 0.1em solid rgb(58, 58, 58);
+  border-bottom: 0.1em solid rgb(58, 58, 58);
 }
 
 .activemenubtn {
-    background-color: rgb(58, 58, 58);
-    color: rgb(200, 200, 200);
+  background-color: rgb(58, 58, 58);
+  color: rgb(200, 200, 200);
 }
 
 #firstsct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    order: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  order: 1;
 }
 
 #firstscttxt {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    order: 1;
-    width: 50%;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 3em;
-    text-align: left;
-    color: rgb(58, 58, 58);
-    padding-left: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  order: 1;
+  width: 50%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 3em;
+  text-align: left;
+  color: rgb(58, 58, 58);
+  padding-left: 2em;
 }
 
 #firstsctimgbox {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    order: 2;
-    width: 50%;
-    transition: 0.4s;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  order: 2;
+  width: 50%;
+  transition: 0.4s;
 }
 
 #firstsctimg {
-    width: 100%;
-    height: auto;
-    border-radius: 3% 0 0 3%;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: 0.4s;
+  width: 100%;
+  height: auto;
+  border-radius: 3% 0 0 3%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
 }
 
 #firstsctimg:hover {
-    transform: translateY(-1px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .numscttitle {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.3em;
-    color: rgb(58, 58, 58);
-    text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3em;
+  color: rgb(58, 58, 58);
+  text-align: center;
 }
 
 .numsctnum {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2em;
-    color: rgb(58, 58, 58);
-    text-align: center;
-    font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  color: rgb(58, 58, 58);
+  text-align: center;
+  font-weight: bold;
 }
 
 #numsct {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5em 1em 3em 1em;
-    order: 2;
-    width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5em 1em 3em 1em;
+  order: 2;
+  width: 90%;
 }
 
 .numsctprj {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20em;
 }
 
-
 #worksct {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1em;
-    order: 3;
-    width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  order: 3;
+  width: 90%;
 }
 
 .scttitle-light {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2.2em;
-    color: rgb(200, 200, 200);
-    padding: 0.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.2em;
+  color: rgb(200, 200, 200);
+  padding: 0.5em;
 }
 
 .scttitle-dark {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2em;
-    color: rgb(58, 58, 58);
-    padding: 0.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  color: rgb(58, 58, 58);
+  padding: 0.5em;
 }
 
 .scttxt-light {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    color: rgb(200, 200, 200);
-    padding: 1em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  color: rgb(200, 200, 200);
+  padding: 1em;
 }
 
 .scttxt-dark {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
-    color: rgb(58, 58, 58);
-    padding: 1em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2em;
+  color: rgb(58, 58, 58);
+  padding: 1em;
 }
 
 .workcard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 13em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 13em;
 }
 
 #workcardsct {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    order: 2;
-    padding: 1em 2em 0 2em;
-    font-family: 'Bitter', serif;
-    font-size: 1.1em;
-    font-weight: 500;
-    color: rgb(58, 58, 58);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  order: 2;
+  padding: 1em 2em 0 2em;
+  font-family: "Bitter", serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(58, 58, 58);
 }
 
 .workcardimg {
-    height: 7em;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border-radius: 0.7em 0.7em 0 0;
-    box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
+  height: 7em;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 0.7em 0.7em 0 0;
+  box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
 }
 
 .workcardcontent {
-    align-items: center;
-    justify-content: center;
-    background: hsla(0, 0%, 23%, 1);
-    background: linear-gradient(90deg, hsla(0, 0%, 23%, 1) 0%, hsla(0, 0%, 35%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(0, 0%, 23%, 1) 0%, hsla(0, 0%, 35%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 23%, 1) 0%, hsla(0, 0%, 35%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3a3a3a", endColorstr="#5a5a5a", GradientType=1);
-    color: rgb(200, 200, 200);
-    padding: 6em 1em 6em 1em;
-    text-align: center;
-    border-radius: 0 0 0.7em 0.7em;
-    box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
-    height: 4em;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.1em;
+  align-items: center;
+  justify-content: center;
+  background: hsla(0, 0%, 23%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 23%, 1) 0%,
+    hsla(0, 0%, 35%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 0%, 23%, 1) 0%,
+    hsla(0, 0%, 35%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 0%, 23%, 1) 0%,
+    hsla(0, 0%, 35%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3a3a3a", endColorstr="#5a5a5a", GradientType=1);
+  color: rgb(200, 200, 200);
+  padding: 6em 1em 6em 1em;
+  text-align: center;
+  border-radius: 0 0 0.7em 0.7em;
+  box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
+  height: 4em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.1em;
 }
 
 .icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    bottom: -3em;
-    transform: translateX(-50%);
-    border-radius: 5em;
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(172, 172, 172);
-    height: 6em;
-    width: 6em;
-    box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: -3em;
+  transform: translateX(-50%);
+  border-radius: 5em;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(172, 172, 172);
+  height: 6em;
+  width: 6em;
+  box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.69);
 }
 
 .reveal {
-    opacity: 0;
-    width: 80%;
+  opacity: 0;
+  width: 80%;
 }
 
 .reveal.active {
-    transition: 0.5s ease;
-    opacity: 1;
+  transition: 0.5s ease;
+  opacity: 1;
 }
 
 #productsct {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    order: 4;
-    padding: 0.5em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  order: 4;
+  padding: 0.5em 2em 1em 2em;
 }
 
 .productsctcontent {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 1em;
 }
 
 .productbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 1em;
-    height: 12em;
-    background-color: rgb(200, 200, 200);
-    color: rgb(58, 58, 58);
-    border-radius: 0.7em;
-    margin: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 1em;
+  height: 12em;
+  background-color: rgb(200, 200, 200);
+  color: rgb(58, 58, 58);
+  border-radius: 0.7em;
+  margin: 1em;
 }
 
 .productboximg {
-    display: block;
-    width: 22em;
-    border-radius: 0.5em;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-wrap: nowrap;
+  display: block;
+  width: 22em;
+  border-radius: 0.5em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap: nowrap;
 }
 
 .productboxtxt {
-    display: flex;
-    flex-direction: column;
-    width: 50em;
+  display: flex;
+  flex-direction: column;
+  width: 50em;
 }
 
 .productboxtxttitle {
-    display: block;
-    order: 1;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
+  display: block;
+  order: 1;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2em;
 }
 
 .productboxtxtcontent {
-    display: block;
-    order: 2;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
+  display: block;
+  order: 2;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
 }
 
 .gallerysct {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    order: 5;
-    border-radius: 0.3em;
-    width: 72em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 5;
+  border-radius: 0.3em;
+  width: 72em;
 }
 
 .gallerysctcontainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5em;
-    max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  max-width: 100%;
 }
 
 .gallerybox {
-    width: 16em;
-    height: 10em;
-    box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.50);
-    border-radius: 0.3em;
-    background-size: cover;
-    transition: 0.4s;
-    margin: 0.5em;
-    cursor: pointer;
+  width: 16em;
+  height: 10em;
+  box-shadow: 0px 0px 51px -7px rgba(56, 56, 56, 0.5);
+  border-radius: 0.3em;
+  background-size: cover;
+  transition: 0.4s;
+  margin: 0.5em;
+  cursor: pointer;
 }
 
 .gallerybox-border {
-    border: 0.12em solid rgb(58, 58, 58);
+  border: 0.12em solid rgb(58, 58, 58);
 }
 
 .gallerybox:hover {
-    box-shadow: 0px 10px 40px 2px rgba(56, 56, 56, 0.55);
+  box-shadow: 0px 10px 40px 2px rgba(56, 56, 56, 0.55);
 }
 
 .gallerybtnsct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    order: 3;
-    border: 0.05em solid rgb(58, 58, 58);
-    border-radius: 0.3em;
-    height: 2em;
-    transition: 0.2;
-    font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  border: 0.05em solid rgb(58, 58, 58);
+  border-radius: 0.3em;
+  height: 2em;
+  transition: 0.2;
+  font-size: 1em;
 }
 
 .gallerybtn {
-    font-size: 1em;
-    color: rgb(58, 58, 58);
-    background-color: transparent;
-    padding: 1.5em;
-    font-family: 'Roboto Mono', monospace;
-    border: 0;
-    transition: 0.4s ease-in-out;
+  font-size: 1em;
+  color: rgb(58, 58, 58);
+  background-color: transparent;
+  padding: 1.5em;
+  font-family: "Roboto Mono", monospace;
+  border: 0;
+  transition: 0.4s ease-in-out;
 }
 
 .gallerybtnsct:hover {
-    background-color: rgb(58, 58, 58);
+  background-color: rgb(58, 58, 58);
 }
 
 .gallerybtnsct:hover .gallerybtn {
-    color: white;
+  color: white;
 }
 
 .gallery-popup {
-    display: none;
-    flex-flow: column;
-    position: absolute;
-    align-items: center;
-    background-color: white;
-    top: 240em;
-    width: 72em;
-    border-radius: 0.5em;
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  display: none;
+  flex-flow: column;
+  position: absolute;
+  align-items: center;
+  background-color: white;
+  top: 240em;
+  width: 72em;
+  border-radius: 0.5em;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 #gallery-popup-header {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    height: 0;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 0;
+  width: 100%;
 }
 
 #gallery-popup-exitbtn {
-    color: rgb(56, 56, 56);
-    background-color: transparent;
-    border: 0;
-    font-size: 1.2em;
-    border-radius: 0.2em;
-    padding: 0.1em;
-    transition: 0.3s;
+  color: rgb(56, 56, 56);
+  background-color: transparent;
+  border: 0;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  padding: 0.1em;
+  transition: 0.3s;
 }
 
 #gallery-popup-exitbtn:hover {
-    color: rgba(58, 58, 58);
-    background-color: rgb(200, 200, 200);
-    border: 0;
-    font-size: 1.2em;
+  color: rgba(58, 58, 58);
+  background-color: rgb(200, 200, 200);
+  border: 0;
+  font-size: 1.2em;
 }
 
 #gallery-popup-imgbox {
-    width: 30em;
-    height: 30em;
-    background-color: grey;
+  width: 30em;
+  height: 30em;
+  background-color: grey;
 }
 
 #gallery-popup-nextbtn {
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    padding: 1em;
-    background-color: red;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 1em;
+  background-color: red;
 }
 
 #gallery-popup-previousbtn {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    padding: 1em;
-    background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  padding: 1em;
+  background-color: red;
 }
 
 #usrreviewsct {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    order: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  order: 20;
 }
 
 .usrreviewscttxt {
-    font-family: 'Kalam', cursive;
-    font-size: 2em;
-    color: rgb(58, 58, 58);
-    text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 2em;
+  color: rgb(58, 58, 58);
+  text-align: center;
 }
 
 .usrreviewscttxtauthor {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    color: rgb(58, 58, 58);
-    text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  color: rgb(58, 58, 58);
+  text-align: center;
 }
 
 /******************************************************************************/
@@ -521,138 +536,137 @@ nav {
 }
 **/
 #productlistsct {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .productcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    border-radius: 0.45em;
-    margin: 1em;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.5s ease;
-    width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-radius: 0.45em;
+  margin: 1em;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+  width: 20em;
 }
 
 .productcontainer:hover {
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .productcontainerimg {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
-    align-items: center;
-    justify-content: center;
-    height: 13em;
-    opacity: 0.8;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all 0.5s ease;
-    border-radius: 0.3em 0.3em 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+  height: 13em;
+  opacity: 0.8;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+  border-radius: 0.3em 0.3em 0 0;
 }
 
 .productcontainer:hover .productcontainerimg {
-    background-size: 105%;
-    opacity: 1;
+  background-size: 105%;
+  opacity: 1;
 }
 
 .productcontainertitle {
-    text-align: center;
-    font-family: "Roboto Mono", monospace;
-    font-size: 1.5em;
-    color: rgb(200, 200, 200);
-    background-color: rgb(58, 58, 58);
-    filter: brightness(100%);
-    border-radius: 0 0 0.3em 0.3em;
-    padding: 0.5em;
-    transition: all 0.5s ease;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  color: rgb(200, 200, 200);
+  background-color: rgb(58, 58, 58);
+  filter: brightness(100%);
+  border-radius: 0 0 0.3em 0.3em;
+  padding: 0.5em;
+  transition: all 0.5s ease;
 }
 
 .productcontainer:hover .productcontainertitle {
-    color: white;
+  color: white;
 }
 
 /* produse *******************************************************************************/
 
 /* p-window *******************************************************************************/
 
-
 .p-sct-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .p-sct-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .p-box-25 {
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 16em;
-    padding: 1em;
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 16em;
+  padding: 1em;
 }
 
 .p-box-33 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 21em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 21em;
+  padding: 1em;
 }
 
 .p-box-66 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 50em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 50em;
+  padding: 1em;
 }
 
 .p-box-50 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 34em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 34em;
+  padding: 1em;
 }
 
 .p-box-75 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 50em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 50em;
+  padding: 1em;
 }
 
 .p-box-100 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 70em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70em;
+  padding: 1em;
 }
 
 /*
@@ -685,318 +699,318 @@ nav {
 }
 */
 .p-banner-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 70em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70em;
+  padding: 1em;
 }
 
 .p-banner-img {
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    border-radius: 0.5em; 
-    margin: 0 0 1em 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.5em;
+  margin: 0 0 1em 0;
 }
 
 #p-productsct {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    order: 2;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  order: 2;
+  width: 100%;
 }
 
 #p-productsctwindowdoor-options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /*width: 72em;*/
-    order: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /*width: 72em;*/
+  order: 3;
 }
 
 #p-productsctwindowdoor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: transparent;
-    order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  order: 2;
 }
 
 #p-productsctwindowdoor-specs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 72em;
-    margin: 1em;
-    border: 0.05em solid rgb(58, 58, 58);
-    border-radius: 0.7em;
-    order: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 72em;
+  margin: 1em;
+  border: 0.05em solid rgb(58, 58, 58);
+  border-radius: 0.7em;
+  order: 2;
 }
 
 .p-productsctwindowdoor-specs-box {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 16em;
-    padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 16em;
+  padding: 1em;
+  height: 100%;
 }
 
 #p-productsct-advantage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 70em;
-    padding: 3em 1em 1em 1em;
-    border-bottom: 0.4em solid rgb(58, 58, 58);
-    order: 4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70em;
+  padding: 3em 1em 1em 1em;
+  border-bottom: 0.4em solid rgb(58, 58, 58);
+  order: 4;
 }
 
 .p-productsct-advantage-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: center;
-    width: 21em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 21em;
+  padding: 1em;
 }
 
 .p-productsct-advantage-logo-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
 }
 
 .p-productsct-advantage-logo {
-    width: 5em;
+  width: 5em;
 }
 
 .p-productsct-advantage-title {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.4em;
-    font-weight: 600;
-    color: rgb(58, 58, 58);
-    padding: 0.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  padding: 0.5em;
 }
 
 .p-productsct-advantage-txt {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.1em;
-    color: rgb(58, 58, 58);
-    padding: 0.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.1em;
+  color: rgb(58, 58, 58);
+  padding: 0.5em;
 }
 
 .p-productsctwindowdoor-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 70em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70em;
 }
 
 .p-productsctwindowdoor-profiletype-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 20em;
-    height: 26em;
-    padding: 1em;
-    margin: 0.5em;
-    background-color: transparent;
-    border: 0.05em solid rgb(58, 58, 58);
-    border-radius: 0.7em;
-    transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20em;
+  height: 26em;
+  padding: 1em;
+  margin: 0.5em;
+  background-color: transparent;
+  border: 0.05em solid rgb(58, 58, 58);
+  border-radius: 0.7em;
+  transition: 0.4s;
 }
 
 .p-productsctwindowdoor-profiletype-box-button {
-    position: relative;
-    border: none;
-    font-size: 1em;
-    padding: 0.5em;
-    color: rgb(58, 58, 58);
-    background-color: transparent;
-    font-family: 'Roboto Mono', monospace;
+  position: relative;
+  border: none;
+  font-size: 1em;
+  padding: 0.5em;
+  color: rgb(58, 58, 58);
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
 }
 
 .p-productsctwindowdoor-profiletype-box-button:hover {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .p-productsctwindowdoor-profiletype-box-button::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
 .p-productsctwindowdoor-profiletype-box-button:hover::before {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .p-productsctwindowdoor-profiletype-box:hover {
-    background-color: rgb(255, 255, 255);
-    border: 0.05em solid rgb(0, 0, 0);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-    scale: 1.005;
+  background-color: rgb(255, 255, 255);
+  border: 0.05em solid rgb(0, 0, 0);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  scale: 1.005;
 }
 
-.p-productsctwindowdoor-profiletype-box:hover .p-productsctwindowdoor-profiletype-box-img {
-    border: 0.05em solid rgb(0, 0, 0);
-    opacity: 1;
+.p-productsctwindowdoor-profiletype-box:hover
+  .p-productsctwindowdoor-profiletype-box-img {
+  border: 0.05em solid rgb(0, 0, 0);
+  opacity: 1;
 }
 
 .p-productsctwindowdoor-profiletype-box-imgbox {
-    width: 100%;
+  width: 100%;
 }
 
 .p-productsctwindowdoor-profiletype-box-img {
-    width: 100%;
-    border: 0.05em solid rgb(58, 58, 58);
-    border-radius: 0.5em;
-    transition: 0.4s;
-    opacity: 0.8;
+  width: 100%;
+  border: 0.05em solid rgb(58, 58, 58);
+  border-radius: 0.5em;
+  transition: 0.4s;
+  opacity: 0.8;
 }
 
 .p-productsctwindowdoor-profiletype-box-title {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    font-weight: 600;
-    color: rgb(58, 58, 58);
-    padding: 0.5em;
-    transition: 0.4s ease-in;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  padding: 0.5em;
+  transition: 0.4s ease-in;
 }
 
 .p-productsctwindowdoor-profiletype-box-txt {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
-    color: rgb(58, 58, 58);
-    padding: 0.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  color: rgb(58, 58, 58);
+  padding: 0.5em;
 }
 
 #p-productsctwindowdoor-profiletype-popup {
-    display: none;
-    position: fixed;
-    overflow: auto;
-    max-height: 100%;
-    top: 1em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 70em;
-    border-radius: 0.5em;
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  display: none;
+  position: fixed;
+  overflow: auto;
+  max-height: 100%;
+  top: 1em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 70em;
+  border-radius: 0.5em;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 #p-productsctwindowdoor-profiletype-popup-header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    width: 95%;
-    padding: 1em;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 95%;
+  padding: 1em;
 }
 
 #p-productsctwindowdoor-profiletype-popup-exitbtn {
-    color: rgb(56, 56, 56);
-    background-color: transparent;
-    border: 0;
-    font-size: 1.2em;
-    border-radius: 0.2em;
-    transition: 0.3s;
+  color: rgb(56, 56, 56);
+  background-color: transparent;
+  border: 0;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  transition: 0.3s;
 }
 
 #p-productsctwindowdoor-profiletype-popup-exitbtn:hover {
-    color: rgba(58, 58, 58);
-    background-color: rgb(200, 200, 200);
-    border: 0;
-    font-size: 1.2em;
+  color: rgba(58, 58, 58);
+  background-color: rgb(200, 200, 200);
+  border: 0;
+  font-size: 1.2em;
 }
 
 .p-productsctwindowdoor-profiletype-popup-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .p-productsctwindowdoor-profiletype-popup-img-box {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .p-productsctwindowdoor-profiletype-popup-img {
-    width: 20em;
-    height: 20em;
-    background-size: cover;
-    border: none;
+  width: 20em;
+  height: 20em;
+  background-size: cover;
+  border: none;
 }
 
 .p-productsctwindowdoor-profiletype-popup-txtbox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 46em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 46em;
+  padding: 1em;
 }
 
-
 .p-productsctwindowdoor-profiletype-popup-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(58, 58, 58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(58, 58, 58);
 }
 
 .p-productsctwindowdoor-profiletype-popup-txt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(58, 58, 58);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(58, 58, 58);
 }
 
 .p-productsctwindowdoor-profiletype-popup-specs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em 0 1em 0;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(58, 58, 58);
-    text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0 1em 0;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(58, 58, 58);
+  text-align: left;
 }
 
 /* .p-productsctwindowdoor-profiletype-popup-gallery {
@@ -1004,3665 +1018,3250 @@ nav {
 } */
 
 .p-productsctwindowdoor-profilecolor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70em;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0.7em;
-    margin: 1em;
-    order: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.7em;
+  margin: 1em;
+  order: 3;
 }
 
 .p-productsctwindowdoor-profilecolor-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 30em;
-    padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30em;
+  padding: 2em;
 }
 
 .p-productsctwindowdoor-profilecolor-title {
-    color: transparent;
-    font-family: sans-serif;
-    font-size: 2.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: auto;
-    text-transform: uppercase;
-    background: linear-gradient(220deg, var(--color-1) 19%,
-            transparent 19%, transparent 20%,
-            var(--color-2) 20%, var(--color-2) 39%,
-            transparent 39%, transparent 40%,
-            var(--color-3) 40%, var(--color-3) 59%,
-            transparent 59%, transparent 60%,
-            var(--color-4) 60%, var(--color-4) 79%,
-            transparent 79%, transparent 80%,
-            var(--color-5) 80%);
-    -webkit-background-clip: text;
+  color: transparent;
+  font-family: sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(
+    220deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  -webkit-background-clip: text;
 }
 
 .p-productsctwindowdoor-profilecolor-txt {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    color: rgb(58, 58, 58);
-    padding: 1.5em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  color: rgb(58, 58, 58);
+  padding: 1.5em;
 }
 
 #p-productsctwindowdoor-profilecolor-img {
-    width: 80%;
-    padding: 1em;
+  width: 80%;
+  padding: 1em;
 }
 
 /* p-slider *******************************************************************************/
 
-
 #p-productsctslide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2em 0 2em 0;
-    order: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em 0 2em 0;
+  order: 3;
 }
 
 #p-productsctslide-presentation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
 }
 
 #p-productsctslide-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 72em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 72em;
 }
 
 #p-productsctslide-presentation-videobox {
-    width: 35em;
-    order: 2;
+  width: 35em;
+  order: 2;
 }
 
 #p-productsctslide-presentation-video {
-    height: 30em;
-    width: 35em;
+  height: 30em;
+  width: 35em;
 }
 
 #p-productsctslide-presentation-txtbox {
-    width: 35em;
-    order: 1;
+  width: 35em;
+  order: 1;
 }
 
 #p-productsctslide-presentation-txtbox-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    font-weight: 800;
-    color: rgb(58, 58, 58);
-    padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: rgb(58, 58, 58);
+  padding: 1em;
 }
 
 #p-productsctslide-presentation-txtbox-txt {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
-    color: rgb(58, 58, 58);
-    padding: 1em;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2em;
+  color: rgb(58, 58, 58);
+  padding: 1em;
 }
 
 /* p-others *******************************************************************************/
 #p-productsctothers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: transparent;
-    border-radius: 0.7em;
-    order: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 0.7em;
+  order: 4;
 }
 
 .p-productsctothers-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 72em;
-    background-color: transparent;
-    border: 0.05em solid rgb(58, 58, 58);
-    border-radius: 0.7em;
-    transition: 0.4s;
-    margin: 0 0 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 72em;
+  background-color: transparent;
+  border: 0.05em solid rgb(58, 58, 58);
+  border-radius: 0.7em;
+  transition: 0.4s;
+  margin: 0 0 1em 0;
 }
 
 .p-productsctothers-imgbox {
-    height: 30em;
-    background-color: red;
-    border-radius: 0.5em;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: 0.4s;
+  height: 30em;
+  background-color: red;
+  border-radius: 0.5em;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
 }
 
 .p-productsctothers-imgbox:hover {
-    transform: translateY(-1px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .p-productsctothers-txtbox {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .p-productsctothers-txtbox-title {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    font-weight: 800;
-    color: rgb(58, 58, 58);
-    padding: 1em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: rgb(58, 58, 58);
+  padding: 1em;
 }
 
 .p-productsctothers-txtbox-txt {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
-    color: rgb(58, 58, 58);
-    padding: 1em;
-    height: 20em;
-    word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2em;
+  color: rgb(58, 58, 58);
+  padding: 1em;
+  height: 20em;
+  word-wrap: break-word;
 }
 
 /* warranty *******************************************************************************/
 #warranty-txtbox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 70em;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70em;
+  padding: 1em;
 }
 
 /* gallery *******************************************************************************/
 
 #g-gallery-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 72em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 72em;
 }
 
 #g-gallery-container img {
-    width: 17em;
-    border-radius: 0.3em;
-    margin: 1em;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: 0.4s;
+  width: 17em;
+  border-radius: 0.3em;
+  margin: 1em;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
 }
 
 #g-gallery-container img:hover {
-    transform: translateY(-1px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .g-gallery-container-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .g-gallery-container-section-title {
-    justify-content: left;
-    width: 90%;
-    text-align: left;
-    font-size: 1.7em;
-    color: rgb(58, 58, 58);
-    font-family: 'Roboto Mono', monospace;
-    padding: 1em;
-    border-bottom: 0.3em dotted rgb(58, 58, 58);
+  justify-content: left;
+  width: 90%;
+  text-align: left;
+  font-size: 1.7em;
+  color: rgb(58, 58, 58);
+  font-family: "Roboto Mono", monospace;
+  padding: 1em;
+  border-bottom: 0.3em dotted rgb(58, 58, 58);
 }
 
 /* contact *******************************************************************************/
 #w-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 70em;
-    padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70em;
+  padding: 1em;
 }
 
-
-
 .w-infocontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 34em;
-    border-left: 0.3em dotted rgb(58, 58, 58);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 34em;
+  border-left: 0.3em dotted rgb(58, 58, 58);
 }
 
 .w-infobox {
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    padding-left: 2em;
-    transition: 0.4s;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding-left: 2em;
+  transition: 0.4s;
 }
 
 .w-logo-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 
 .w-logo {
-    width: 100%;
+  width: 100%;
 }
 
 .w-txtbox {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    flex-direction: column;
-    text-align: left;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 800;
-    font-size: 1em;
-    color: rgb(58, 58, 58);
-    padding: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 1em;
+  color: rgb(58, 58, 58);
+  padding: 1em;
 }
 
 .w-txtbox-title {
-    text-align: left;
-    font-weight: 800;
+  text-align: left;
+  font-weight: 800;
 }
 
 .w-txtbox-txt {
-    text-align: left;
-    font-weight: 200;
+  text-align: left;
+  font-weight: 200;
 }
 
 .w-linkbtn {
-    position: relative;
-    border: none;
-    font-size: 1em;
-    color: rgb(58, 58, 58);
-    background-color: transparent;
-    font-family: 'Roboto Mono', monospace;
-    transition: 0.4s;
+  position: relative;
+  border: none;
+  font-size: 1em;
+  color: rgb(58, 58, 58);
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  transition: 0.4s;
 }
 
 .w-linkbtn:hover {
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 #w-maps-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    border: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  border: 0;
 }
 
 #w-maps {
-    height: 33em;
-    width: 33em;
-    border: 0;
-    border-radius: 0.5em;
+  height: 33em;
+  width: 33em;
+  border: 0;
+  border-radius: 0.5em;
 }
 
 /* about us *******************************************************************************/
 #dn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url('imgsite/imgsite-desprenoi/imgfirma-dark.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("imgsite/imgsite-desprenoi/imgfirma-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50em;
 }
 
 #dn-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2em;
-    background: linear-gradient(rgba(200, 200, 200, .90), rgba(210, 210, 210, .90)), url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
-    width: 68em;
-    border-radius: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  background: linear-gradient(
+      rgba(200, 200, 200, 0.9),
+      rgba(210, 210, 210, 0.9)
+    ),
+    url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+  width: 68em;
+  border-radius: 0.4em;
 }
-
 
 /* footer *******************************************************************************/
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    flex-direction: row;
-    bottom: 0%;
-    width: 100%;
-    padding: 1em;
-    margin-top: auto;
-    background-color: rgb(58, 58, 58);
-    color: rgb(165, 165, 165);
-    font-size: 0.8em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    order: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+  bottom: 0%;
+  width: 100%;
+  padding: 1em;
+  margin-top: auto;
+  background-color: rgb(58, 58, 58);
+  color: rgb(165, 165, 165);
+  font-size: 0.8em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  order: 100;
 }
 
 .footer-box {
-    width: 30%;
-    text-decoration: none;
+  width: 30%;
+  text-decoration: none;
 }
 
 .footer-box a {
-    text-decoration: underline;
-    font-weight: bold;
-    color: rgb(163, 163, 163);
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(163, 163, 163);
 }
 
 @media (max-width: 1200px) {
-    .gallerysct {
-        width: 68em ;
-    }
+  .gallerysct {
+    width: 68em;
+  }
 
-    .gallerybox {
-        margin: 1em ;
-        width: 14em ;
-        height: 10em ;
-    }
+  .gallerybox {
+    margin: 1em;
+    width: 14em;
+    height: 10em;
+  }
 
-    .p-banner-box {
-        width: 70em ;
-    }
+  .p-banner-box {
+    width: 70em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 70em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 70em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 15em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 15em;
+  }
 }
 
 @media screen and (max-width: 1150px) {
-    .workcard {
-        width: 12.5em ;
-    }
+  .workcard {
+    width: 12.5em;
+  }
 
-    .productcontainer {
-        width: 18em ;
-        height: 100% ;
-    }
+  .productcontainer {
+    width: 18em;
+    height: 100%;
+  }
 
-    .p-banner-box {
-        width: 60em ;
-    }
+  .p-banner-box {
+    width: 60em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 62em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 62em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 13em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 13em;
+  }
 
+  .p-productsctwindowdoor-container {
+    width: 62em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 17em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.4em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 62em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 17em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 64em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 26em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.3em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.5em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 80%;
+  }
 
+  #p-productsctslide-container {
+    width: 64em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 64em ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 32em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 32em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 30em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.5em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% ;
-    }
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+  }
 
+  #p-productsct-advantage {
+    width: 64em;
+  }
 
+  .p-productsct-advantage-box {
+    width: 18em;
+  }
 
+  .p-productsct-advantage-logo {
+    width: 4.7em;
+  }
 
-    #p-productsctslide-container {
-        width: 64em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 32em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1.1em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 32em ;
-    }
+  #g-gallery-container {
+    width: 66em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 30em ;
-    }
+  #warranty-txtbox {
+    width: 66em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em ;
-    }
+  #w-container {
+    width: 66em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-    }
+  .w-infocontainer {
+    width: 31em;
+  }
 
+  #w-maps {
+    width: 31em;
+    height: 34em;
+  }
 
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 66em;
+  }
 
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 19em;
+  }
 
-    #p-productsct-advantage {
-        width: 64em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 44em;
+  }
 
-    .p-productsct-advantage-box {
-        width: 18em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.7em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em ;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 66em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 66em ;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 66em ;
-    }
-
-    .w-infocontainer {
-        width: 31em ;
-    }
-
-    #w-maps {
-        width: 31em ;
-        height: 34em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 66em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 19em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 44em ;
-    }
-
-
-
-    #dn-box {
-        width: 66em ;
-    }
-
+  #dn-box {
+    width: 66em;
+  }
 }
 
 @media screen and (max-width: 1100px) {
+  .scttitle-dark {
+    font-size: 1.9em;
+  }
 
+  .scttxt-dark {
+    font-size: 1.4em;
+  }
 
+  #firstscttxt {
+    font-size: 2.7em;
+  }
 
-    .scttitle-dark {
-        font-size: 1.9em ;
-    }
+  .workcard {
+    width: 12em;
+  }
 
-    .scttxt-dark {
-        font-size: 1.4em ;
-    }
+  .workcardcontent {
+    padding: 5.5em 1em 5.5em 1em;
+  }
 
+  .productcontainer {
+    width: 18em;
+    height: 100%;
+  }
 
+  .gallerysct {
+    width: 64em;
+  }
 
-    #firstscttxt {
-        font-size: 2.7em ;
-    }
+  .gallerybox {
+    margin: 1em;
+    width: 13em;
+    height: 10em;
+  }
 
-    .workcard {
-        width: 12em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 62em;
+  }
 
-    .workcardcontent {
-        padding: 5.5em 1em 5.5em 1em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 26em;
+  }
 
-    .productcontainer {
-        width: 18em ;
-        height: 100% ;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.3em;
+  }
 
-    .gallerysct {
-        width: 64em ;
-    }
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.5em;
+  }
 
-    .gallerybox {
-        margin: 1em ;
-        width: 13em ;
-        height: 10em ;
-    }
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 80%;
+  }
 
+  #g-gallery-container {
+    width: 64em;
+  }
 
+  #warranty-txtbox {
+    width: 63em;
+  }
 
+  #w-container {
+    width: 63em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 62em ;
-    }
+  .w-infocontainer {
+    width: 30em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em ;
-    }
+  #w-maps {
+    width: 30em;
+    height: 35em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 63em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 18em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 42em;
+  }
 
-
-
-
-
-    #g-gallery-container {
-        width: 64em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 63em ;
-    }
-
-
-
-
-
-    #w-container {
-        width: 63em ;
-    }
-
-    .w-infocontainer {
-        width: 30em ;
-    }
-
-    #w-maps {
-        width: 30em ;
-        height: 35em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 63em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 18em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 42em ;
-    }
-
-
-
-    #dn-box {
-        width: 63em ;
-    }
-
+  #dn-box {
+    width: 63em;
+  }
 }
 
 @media screen and (max-width: 1030px) {
+  .workcard {
+    width: 11em;
+  }
 
-    .workcard {
-        width: 11em ;
-    }
+  .workcardcontent {
+    padding: 5em 1em 5em 1em;
+    font-size: 1em;
+  }
 
-    .workcardcontent {
-        padding: 5em 1em 5em 1em ;
-        font-size: 1em ;
-    }
+  .productcontainer {
+    width: 17em;
+    height: 100%;
+  }
 
-    .productcontainer {
-        width: 17em ;
-        height: 100% ;
-    }
+  .p-banner-box {
+    width: 58em;
+  }
 
-    .p-banner-box {
-        width: 58em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 60em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 60em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 13em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 13em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 60em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 26em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.3em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 60em ;
-    }
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.5em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 26em ;
-    }
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 75%;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em ;
-    }
+  #p-productsctslide-container {
+    width: 60em;
+    order: 2;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 30em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 30em;
+  }
 
+  #p-productsctslide-presentation-txtbox {
+    width: 30em;
+  }
 
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.5em;
+  }
 
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+  }
 
-    #p-productsctslide-container {
-        width: 60em ;
-        order: 2;
-    }
+  #p-productsct-advantage {
+    width: 58em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 30em ;
-    }
+  .p-productsct-advantage-box {
+    width: 17em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 30em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.7em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 30em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1.1em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-    }
+  #g-gallery-container {
+    width: 60em;
+  }
 
+  .g-gallery-container-section-title {
+    font-size: 1.5em;
+  }
 
+  #g-gallery-container img {
+    width: 16em;
+  }
 
-    #p-productsct-advantage {
-        width: 58em ;
-    }
+  #warranty-txtbox {
+    width: 58em;
+  }
 
-    .p-productsct-advantage-box {
-        width: 17em ;
-    }
+  #w-container {
+    width: 61em;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.7em ;
-    }
+  .w-infocontainer {
+    width: 30em;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
+  #w-maps {
+    width: 30em;
+    height: 35em;
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1.1em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 60em;
+  }
 
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 18em;
+  }
 
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 40em;
+  }
 
-
-    #g-gallery-container {
-        width: 60em ;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.5em ;
-    }
-
-    #g-gallery-container img {
-        width: 16em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 58em ;
-    }
-
-
-
-
-    #w-container {
-        width: 61em ;
-    }
-
-    .w-infocontainer {
-        width: 30em ;
-    }
-
-    #w-maps {
-        width: 30em ;
-        height: 35em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 60em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 18em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 40em ;
-    }
-
-
-
-    #dn-box {
-        width: 60em ;
-    }
+  #dn-box {
+    width: 60em;
+  }
 }
 
-@media screen and (max-width:1000px) {
-
-    .scttitle-dark {
-        font-size: 1.4em ;
-    }
-
-    .scttxt-dark {
-        font-size: 1.2em ;
-    }
-
-    #menu {
-        font-size: 1em ;
-    }
-
-    #firstscttxt {
-        font-size: 2.3em ;
-    }
-
-    .numscttitle {
-        font-size: 1.2em ;
-    }
-
-    .numsctnum {
-        font-size: 1.8em ;
-    }
-
-    #numsct {
-        width: 80% ;
-    }
-
-    .icon {
-        width: 4em ;
-        height: 4em ;
-        bottom: -2em ;
-    }
-
-    .productcontainer {
-        width: 16em ;
-    }
-
-    .productcontainertitle {
-        font-size: 1.3em ;
-    }
-
-    .p-box-100 {
-        width: 80% ;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 56em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 22em ;
-        height: 15em ;
-    }
-
-    .p-banner-box {
-        width: 56em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 58em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 12em ;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 60em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 16em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
-
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 58em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 24em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% ;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 56em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 16em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.6em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.1em ;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 58em ;
-    }
-
-    #g-gallery-container img {
-        width: 16em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 58em ;
-    }
-
-
-
-
-    #w-container {
-        width: 58em ;
-    }
-
-    .w-infocontainer {
-        width: 28em ;
-    }
-
-    #w-maps {
-        width: 28em ;
-        height: 36em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 58em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 25em ;
-        height: 25em ;
-        order: 2 ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% ;
-        order: 1 ;
-    }
-
+@media screen and (max-width: 1000px) {
+  .scttitle-dark {
+    font-size: 1.4em;
+  }
+
+  .scttxt-dark {
+    font-size: 1.2em;
+  }
+
+  #menu {
+    font-size: 1em;
+  }
+
+  #firstscttxt {
+    font-size: 2.3em;
+  }
+
+  .numscttitle {
+    font-size: 1.2em;
+  }
+
+  .numsctnum {
+    font-size: 1.8em;
+  }
+
+  #numsct {
+    width: 80%;
+  }
+
+  .icon {
+    width: 4em;
+    height: 4em;
+    bottom: -2em;
+  }
+
+  .productcontainer {
+    width: 16em;
+  }
+
+  .productcontainertitle {
+    font-size: 1.3em;
+  }
+
+  .p-box-100 {
+    width: 80%;
+  }
+
+  .p-box-50 {
+    width: 10em;
+  }
+
+  .p-box-25 {
+    width: 10em;
+  }
+
+  .p-box-33 {
+    width: 10em;
+  }
+
+  .gallerysct {
+    width: 56em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 22em;
+    height: 15em;
+  }
+
+  .p-banner-box {
+    width: 56em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 58em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 12em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 60em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 16em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 58em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 24em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.3em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.5em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 75%;
+  }
+
+  #p-productsct-advantage {
+    width: 56em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 16em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.6em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.1em;
+  }
+
+  #g-gallery-container {
+    width: 58em;
+  }
+
+  #g-gallery-container img {
+    width: 16em;
+  }
+
+  #warranty-txtbox {
+    width: 58em;
+  }
+
+  #w-container {
+    width: 58em;
+  }
+
+  .w-infocontainer {
+    width: 28em;
+  }
+
+  #w-maps {
+    width: 28em;
+    height: 36em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 58em;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 25em;
+    height: 25em;
+    order: 2;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 90%;
+    order: 1;
+  }
 }
 
 @media screen and (max-width: 960px) {
+  .scttitle-light {
+    font-size: 1.8em;
+  }
 
-    .scttitle-light {
-        font-size: 1.8em ;
-    }
+  .workcard {
+    width: 10em;
+  }
 
-    .workcard {
-        width: 10em ;
-    }
+  .workcardcontent {
+    padding: 5em 1em 5em 1em;
+    font-size: 1em;
+  }
 
-    .workcardcontent {
-        padding: 5em 1em 5em 1em ;
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 56em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 15em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.4em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 56em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 56em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 24em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.3em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.5em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 75%;
+  }
 
+  #p-productsctslide-container {
+    width: 56em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 56em ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 28em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 24em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 28em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.3em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 28em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.5em ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.5em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% ;
-    }
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1em;
+  }
 
+  #g-gallery-container {
+    width: 56em;
+  }
 
+  #g-gallery-container img {
+    width: 16em;
+  }
 
+  #warranty-txtbox {
+    width: 54em;
+  }
 
-    #p-productsctslide-container {
-        width: 56em ;
-    }
+  .w-logo {
+    width: 90%;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 28em ;
-    }
+  #w-container {
+    width: 54em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 28em ;
-    }
+  .w-infocontainer {
+    width: 30em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 28em ;
-    }
+  #w-maps {
+    width: 20em;
+    height: 36em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.5em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 54em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 22em;
+    height: 22em;
+    order: 2;
+  }
 
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 90%;
+    order: 1;
+  }
 
-
-
-    #g-gallery-container {
-        width: 56em ;
-    }
-
-    #g-gallery-container img {
-        width: 16em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 54em ;
-    }
-
-
-
-    .w-logo {
-        width: 90% ;
-    }
-
-    #w-container {
-        width: 54em ;
-    }
-
-    .w-infocontainer {
-        width: 30em ;
-    }
-
-    #w-maps {
-        width: 20em ;
-        height: 36em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 54em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 22em ;
-        height: 22em ;
-        order: 2 ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% ;
-        order: 1 ;
-    }
-
-
-
-    #dn-box {
-        width: 54em ;
-    }
+  #dn-box {
+    width: 54em;
+  }
 }
 
 @media screen and (max-width: 930px) {
+  .productcontainer {
+    width: 15em;
+  }
 
-    .productcontainer {
-        width: 15em ;
-    }
+  .p-banner-box {
+    width: 54em;
+  }
 
+  #p-productsctwindowdoor-specs {
+    width: 56em;
+  }
 
-    .p-banner-box {
-        width: 54em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 24em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 56em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 54em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 24em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 22em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.1em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.4em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 75%;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 54em ;
-    }
+  #p-productsctslide-container {
+    width: 54em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 26em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.1em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 26em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 26em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
 
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1em;
+  }
 
+  #p-productsct-advantage {
+    width: 54em;
+  }
 
+  .p-productsct-advantage-box {
+    width: 16em;
+  }
 
-    #p-productsctslide-container {
-        width: 54em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.5em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 26em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.35em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 26em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1.1em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 26em ;
-    }
+  #g-gallery-container {
+    width: 54em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
+  #g-gallery-container img {
+    width: 15em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em ;
-    }
+  #warranty-txtbox {
+    width: 52em;
+  }
 
+  #w-container {
+    width: 54em;
+  }
 
+  .w-infocontainer {
+    width: 90%;
+    border-left: none;
+    margin-bottom: 1em;
+  }
 
+  .w-infobox {
+    border-bottom: 0.22em dotted rgb(58, 58, 58);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    #p-productsct-advantage {
-        width: 54em ;
-    }
+  .w-logo-box {
+    padding: 1em 0 0 0;
+    width: 5%;
+  }
 
-    .p-productsct-advantage-box {
-        width: 16em ;
-    }
+  .w-txtbox {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.5em ;
-    }
+  .w-txtbox-txt {
+    text-align: center;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.35em ;
-    }
+  #w-maps {
+    width: 52em;
+    height: 30em;
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1.1em ;
-    }
-
-
-
-
-    #g-gallery-container {
-        width: 54em ;
-    }
-
-    #g-gallery-container img {
-        width: 15em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 52em ;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 54em ;
-    }
-
-    .w-infocontainer {
-        width: 90% ;
-        border-left: none ;
-        margin-bottom: 1em;
-    }
-
-    .w-infobox {
-        border-bottom: 0.22em dotted rgb(58, 58, 58);
-        flex-direction: column ;
-        align-items: center ;
-        justify-content: center ;
-    }
-
-    .w-logo-box {
-        padding: 1em 0 0 0 ;
-        width: 5%;
-    }
-
-    .w-txtbox {
-        justify-content: center ;
-        align-items: center ;
-    }
-
-    .w-txtbox-txt {
-        text-align: center ;
-    }
-
-    #w-maps {
-        width: 52em ;
-        height: 30em ;
-    }
-
-
-
-
-    #dn-box {
-        width: 52em ;
-    }
+  #dn-box {
+    width: 52em;
+  }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
+  #menu {
+    font-size: 0.9em;
+  }
 
-    #menu {
-        font-size: 0.9em ;
-    }
+  #firstscttxt {
+    font-size: 2em;
+  }
 
-    #firstscttxt {
-        font-size: 2em ;
-    }
+  .numscttitle {
+    font-size: 1.1em;
+  }
 
-    .numscttitle {
-        font-size: 1.1em ;
-    }
+  .numsctnum {
+    font-size: 1.7em;
+  }
 
-    .numsctnum {
-        font-size: 1.7em ;
-    }
+  .workcard {
+    width: 9.5em;
+  }
 
-    .workcard {
-        width: 9.5em ;
-    }
+  .workcardcontent {
+    padding: 4em 1em 4em 1em;
+    font-size: 1em;
+  }
 
-    .workcardcontent {
-        padding: 4em 1em 4em 1em ;
-        font-size: 1em ;
-    }
+  .productcontainer {
+    width: 20em;
+  }
 
-    .productcontainer {
-        width: 20em ;
-    }
+  .gallerysct {
+    width: 52em;
+  }
 
-    .gallerysct {
-        width: 52em ;
-    }
+  .gallerybox {
+    margin: 1em;
+    width: 20em;
+    height: 14em;
+  }
 
-    .gallerybox {
-        margin: 1em ;
-        width: 20em ;
-        height: 14em ;
-    }
+  .p-banner-box {
+    width: 50em;
+  }
 
-    .p-banner-box {
-        width: 50em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 52em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 52em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 20em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 20em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 54em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 14em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.4em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 54em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 14em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 52em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.4em;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 22em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.1em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.4em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 75%;
+  }
 
+  #p-productsct-advantage {
+    width: 52em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 52em ;
-    }
+  .p-productsct-advantage-box {
+    width: 15em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.4em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.1em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 75% ;
-    }
+  #g-gallery-container {
+    width: 52em;
+  }
 
+  #g-gallery-container img {
+    width: 15em;
+  }
 
+  #warranty-txtbox {
+    width: 50em;
+  }
 
+  #w-container {
+    width: 50em;
+  }
 
+  .w-logo-box {
+    width: 5%;
+  }
 
-    #p-productsct-advantage {
-        width: 52em ;
-    }
+  #w-maps {
+    width: 48em;
+    height: 28em;
+  }
 
-    .p-productsct-advantage-box {
-        width: 15em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 50em;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.4em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 22em;
+    height: 22em;
+    order: 2;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-txtbox {
+    width: 90%;
+    order: 1;
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1em ;
-    }
-
-
-    #g-gallery-container {
-        width: 52em ;
-    }
-
-    #g-gallery-container img {
-        width: 15em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 50em ;
-    }
-
-
-
-
-    #w-container {
-        width: 50em ;
-    }
-
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 48em ;
-        height: 28em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 50em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 22em ;
-        height: 22em ;
-        order: 2 ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-txtbox {
-        width: 90% ;
-        order: 1 ;
-    }
-
-
-
-
-    #dn-box {
-        width: 52em ;
-    }
-
+  #dn-box {
+    width: 52em;
+  }
 }
 
 @media screen and (max-width: 850px) {
+  .scttxt-dark {
+    font-size: 1.2em;
+  }
 
-    .scttxt-dark {
-        font-size: 1.2em ;
-    }
+  .p-banner-box {
+    width: 48em;
+  }
 
-    .p-banner-box {
-        width: 48em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 50em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 50em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 18em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 18em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 52em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 13em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 52em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 13em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 50em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 20em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.4em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 100%;
+  }
 
+  #p-productsctslide-container {
+    width: 50em;
+  }
 
+  #p-productsctslide-presentation-video {
+    height: 34em;
+    width: 24em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 50em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 24em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 20em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 24em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em ;
-    }
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 100% ;
-    }
+  #p-productsct-advantage {
+    width: 50em;
+  }
 
+  .p-productsct-advantage-box {
+    width: 14em;
+  }
 
+  .p-productsct-advantage-logo {
+    width: 4.4em;
+  }
 
+  .p-productsct-advantage-title {
+    font-size: 1.3em;
+  }
 
-    #p-productsctslide-container {
-        width: 50em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 34em ;
-        width: 24em ;
-    }
+  #g-gallery-container {
+    width: 50em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 24em ;
-    }
+  #g-gallery-container img {
+    width: 14em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 24em ;
-    }
+  #warranty-txtbox {
+    width: 48em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
+  #w-container {
+    width: 48em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em ;
-    }
+  .w-logo-box {
+    width: 5%;
+  }
 
+  #w-maps {
+    width: 46em;
+    height: 28em;
+  }
 
-
-
-    #p-productsct-advantage {
-        width: 50em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 14em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em ;
-    }
-
-
-
-    #g-gallery-container {
-        width: 50em ;
-    }
-
-    #g-gallery-container img {
-        width: 14em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 48em ;
-    }
-
-
-
-
-
-
-    #w-container {
-        width: 48em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 46em ;
-        height: 28em ;
-    }
-
-
-
-    #dn-box {
-        width: 48em ;
-    }
-
+  #dn-box {
+    width: 48em;
+  }
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width: 830px) {
+  .menubtn {
+    font-size: 1.1em;
+  }
 
-    .menubtn {
-        font-size: 1.1em ;
-    }
+  #firstscttxt {
+    font-size: 1.9em;
+  }
 
-    #firstscttxt {
-        font-size: 1.9em ;
-    }
+  #logo {
+    width: 9em;
+  }
 
-    #logo {
-        width: 9em ;
-    }
+  .numscttitle {
+    font-size: 1em;
+  }
 
-    .numscttitle {
-        font-size: 1em ;
-    }
+  .numsctnum {
+    font-size: 1.6em;
+  }
 
-    .numsctnum {
-        font-size: 1.6em ;
-    }
+  .workcard {
+    padding: 1em;
+    width: 40%;
+  }
 
-    .workcard {
-        padding: 1em ;
-        width: 40% ;
-    }
+  .icon {
+    width: 5em;
+    height: 5em;
+    bottom: -2.5em;
+  }
 
-    .icon {
-        width: 5em ;
-        height: 5em ;
-        bottom: -2.5em ;
-    }
+  .workcard {
+    width: 14em;
+  }
 
-    .workcard {
-        width: 14em ;
-    }
+  .workcardcontent {
+    padding: 3em 1em 3em 1em;
+    font-size: 1em;
+  }
 
-    .workcardcontent {
-        padding: 3em 1em 3em 1em ;
-        font-size: 1em ;
-    }
+  .productcontainer {
+    width: 18em;
+  }
 
-    .productcontainer {
-        width: 18em ;
-    }
+  .productcontainerimg {
+    height: 10em;
+  }
 
-    .productcontainerimg {
-        height: 10em ;
-    }
+  .productcontainertitle {
+    font-size: 1.3em;
+  }
 
-    .productcontainertitle {
-        font-size: 1.3em ;
-    }
+  .gallerysct {
+    width: 44em;
+  }
 
-    .gallerysct {
-        width: 44em ;
-    }
+  .gallerybox {
+    margin: 1em;
+    width: 17em;
+    height: 12em;
+  }
 
-    .gallerybox {
-        margin: 1em ;
-        width: 17em ;
-        height: 12em ;
-    }
+  .p-banner-box {
+    width: 48em;
+  }
 
-    .p-banner-box {
-        width: 48em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 51em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 13em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 51em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 13em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 48em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 20em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.4em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 100%;
+  }
 
+  #p-productsct-advantage {
+    width: 48em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 48em ;
-    }
+  .p-productsct-advantage-box {
+    width: 14em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 20em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.4em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 100% ;
-    }
+  #g-gallery-container {
+    width: 48em;
+  }
 
+  #g-gallery-container img {
+    width: 13em;
+  }
 
+  #w-container {
+    width: 44em;
+  }
 
-    #p-productsct-advantage {
-        width: 48em ;
-    }
+  .w-logo-box {
+    width: 5%;
+  }
 
-    .p-productsct-advantage-box {
-        width: 14em ;
-    }
+  #w-maps {
+    width: 42em;
+    height: 26em;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.4em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 44em;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 20em;
+    height: 20em;
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1em ;
-    }
-
-
-
-    #g-gallery-container {
-        width: 48em ;
-    }
-
-    #g-gallery-container img {
-        width: 13em ;
-    }
-
-
-
-    #w-container {
-        width: 44em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 42em ;
-        height: 26em ;
-    }
-
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 44em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 20em ;
-        height: 20em ;
-    }
-
-
-
-    #dn-box {
-        width: 44em ;
-    }
-
+  #dn-box {
+    width: 44em;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .p-banner-box {
+    width: 48em;
+  }
 
-    .p-banner-box {
-        width: 48em ;
-    }
+  .p-banner-box {
+    width: 43em;
+  }
 
-    .p-banner-box {
-        width: 43em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 46em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 46em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 18em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 18em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 46em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 12em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 46em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 46em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 12em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 46em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 50%;
+  }
 
+  #p-productsctslide-container {
+    width: 48em;
+  }
 
+  #p-productsctslide-presentation-video {
+    height: 34em;
+    width: 23em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 46em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 23em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 46em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 24em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% ;
-    }
+  #p-productsct-advantage {
+    width: 46em;
+  }
 
+  .p-productsct-advantage-box {
+    width: 25em;
+  }
 
+  .p-productsct-advantage-logo {
+    width: 4.4em;
+  }
 
-    #p-productsctslide-container {
-        width: 48em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 34em ;
-        width: 23em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 23em ;
-    }
+  #g-gallery-container {
+    width: 46em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 24em ;
-    }
+  #g-gallery-container img {
+    width: 13em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
+  #warranty-txtbox {
+    width: 46em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 46em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 25em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.4em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1em ;
-    }
-
-
-
-    #g-gallery-container {
-        width: 46em ;
-    }
-
-    #g-gallery-container img {
-        width: 13em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 46em ;
-    }
-
-
-
-
-    #dn-box {
-        width: 46em ;
-    }
-
+  #dn-box {
+    width: 46em;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .menubtn {
-        font-size: 1em ;
-    }
+  .menubtn {
+    font-size: 1em;
+  }
 
-    .p-banner-box {
-        width: 40em ;
-    }
+  .p-banner-box {
+    width: 40em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 42em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 42em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 15em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 15em;
+  }
 
+  .p-productsctwindowdoor-container {
+    width: 44em;
+  }
 
+  .p-productsctwindowdoor-profiletype-box {
+    width: 11em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 44em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 11em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profilecolor {
+    width: 42em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 42em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
 
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 50%;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 42em ;
-    }
+  #p-productsctslide-container {
+    width: 44em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 42em ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 42em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
+  #p-productsctslide-presentation-videobox {
+    width: 44em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
+  #p-productsctslide-presentation-txtbox {
+    width: 40em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% ;
-    }
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
 
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em;
+  }
 
+  #p-productsct-advantage {
+    width: 42em;
+  }
 
-    #p-productsctslide-container {
-        width: 44em ;
-    }
+  .p-productsct-advantage-box {
+    width: 25em;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 42em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.4em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 44em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 40em ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
+  .g-gallery-container-section-title {
+    font-size: 1.5em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-        text-align: center ;
-        padding: 1em ;
-    }
+  #g-gallery-container {
+    width: 44em;
+  }
 
+  #g-gallery-container img {
+    width: 12em;
+  }
 
+  #warranty-txtbox {
+    width: 42em;
+  }
 
+  #w-container {
+    width: 42em;
+  }
 
-    #p-productsct-advantage {
-        width: 42em ;
-    }
+  .w-logo-box {
+    width: 5%;
+  }
 
-    .p-productsct-advantage-box {
-        width: 25em ;
-    }
+  #w-maps {
+    width: 40em;
+    height: 26em;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.4em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 42em;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 20em;
+    height: 20em;
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1em ;
-    }
+  #dn-box {
+    width: 42em;
+  }
 
-    .g-gallery-container-section-title {
-        font-size: 1.5em ;
-    }
-
-    #g-gallery-container {
-        width: 44em ;
-    }
-
-    #g-gallery-container img {
-        width: 12em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 42em ;
-    }
-
-
-
-
-    #w-container {
-        width: 42em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 40em ;
-        height: 26em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 42em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 20em ;
-        height: 20em ;
-    }
-
-
-
-    #dn-box {
-        width: 42em ;
-    }
-
-    
-
-    footer {
-        font-size: 0.7em ;
-    }
+  footer {
+    font-size: 0.7em;
+  }
 }
 
-
-
 @media screen and (max-width: 700px) {
-    .scttxt-dark {
-        font-size: 0.9em ;
-    }
-
-    .menubtn {
-        font-size: 0.9em ;
-    }
-
-    #firstscttxt {
-        font-size: 1.7em ;
-    }
-
-    .icon {
-        width: 4.5em ;
-        height: 4.5em ;
-        bottom: -2.5em ;
-    }
-
-    .workcard {
-        width: 12em ;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.7em 3em 0.7em ;
-        font-size: 1em ;
-    }
-
-    .numscttitle {
-        font-size: 1em ;
-    }
-
-    .numsctnum {
-        font-size: 1.5em ;
-    }
-
-    .productcontainer {
-        width: 16em ;
-    }
-
-    .productcontainerimg {
-        height: 10em ;
-    }
-
-    .gallerysct {
-        width: 38em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 15em ;
-        height: 10em ;
-    }
-
-    .p-banner-box {
-        width: 37em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 38em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 14em ;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 40em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em ;
-        height: 20em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 40em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 40em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 50% ;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 40em ;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 28em ;
-        width: 38em ;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 38em ;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 37em ;
-        padding: 1em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 36em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 26em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.2em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-    .g-gallery-container-section-title {
-        font-size: 1.5em ;
-    }
-
-    #g-gallery-container {
-        width: 40em ;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.3em ;
-    }
-
-    #g-gallery-container img {
-        width: 16em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 38em ;
-    }
-
-
-
-
-    #w-container {
-        width: 38em ;
-    }
-
-    .w-infocontainer {
-        font-size: 0.9em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 36em ;
-        height: 24em ;
-    }
-
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 38em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 15em ;
-        height: 15em ;
-    }
-
-
-
-    #dn-box {
-        width: 37em ;
-    }
-
+  .scttxt-dark {
+    font-size: 0.9em;
+  }
+
+  .menubtn {
+    font-size: 0.9em;
+  }
+
+  #firstscttxt {
+    font-size: 1.7em;
+  }
+
+  .icon {
+    width: 4.5em;
+    height: 4.5em;
+    bottom: -2.5em;
+  }
+
+  .workcard {
+    width: 12em;
+  }
+
+  .workcardcontent {
+    padding: 3em 0.7em 3em 0.7em;
+    font-size: 1em;
+  }
+
+  .numscttitle {
+    font-size: 1em;
+  }
+
+  .numsctnum {
+    font-size: 1.5em;
+  }
+
+  .productcontainer {
+    width: 16em;
+  }
+
+  .productcontainerimg {
+    height: 10em;
+  }
+
+  .gallerysct {
+    width: 38em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 15em;
+    height: 10em;
+  }
+
+  .p-banner-box {
+    width: 37em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 38em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 14em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 40em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 10em;
+    height: 20em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 40em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 40em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 50%;
+  }
+
+  #p-productsctslide-container {
+    width: 40em;
+  }
+
+  #p-productsctslide-presentation-video {
+    height: 28em;
+    width: 38em;
+  }
+
+  #p-productsctslide-presentation-videobox {
+    width: 38em;
+  }
+
+  #p-productsctslide-presentation-txtbox {
+    width: 37em;
+    padding: 1em;
+  }
+
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
+
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+  }
+
+  #p-productsct-advantage {
+    width: 36em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 26em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.2em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.2em;
+  }
+
+  .g-gallery-container-section-title {
+    font-size: 1.5em;
+  }
+
+  #g-gallery-container {
+    width: 40em;
+  }
+
+  .g-gallery-container-section-title {
+    font-size: 1.3em;
+  }
+
+  #g-gallery-container img {
+    width: 16em;
+  }
+
+  #warranty-txtbox {
+    width: 38em;
+  }
+
+  #w-container {
+    width: 38em;
+  }
+
+  .w-infocontainer {
+    font-size: 0.9em;
+  }
+
+  .w-logo-box {
+    width: 5%;
+  }
+
+  #w-maps {
+    width: 36em;
+    height: 24em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 38em;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 15em;
+    height: 15em;
+  }
+
+  #dn-box {
+    width: 37em;
+  }
 }
 
 @media screen and (max-width: 640px) {
-
-    .menubtn {
-        font-size: 0.8em ;
-    }
-
-    #logo {
-        width: 8em ;
-    }
-
-    #firstscttxt {
-        font-size: 1.5em ;
-    }
-
-    .numscttitle {
-        font-size: 0.9em ;
-    }
-
-    .numsctnum {
-        font-size: 1.4em ;
-    }
-
-    .workcard {
-        width: 10em ;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.7em 3em 0.7em ;
-        font-size: 1em ;
-    }
-
-    .productcontainer {
-        width: 14em ;
-    }
-
-    .productcontainerimg {
-        height: 9em ;
-    }
-
-    .productcontainertitle {
-        font-size: 1.2em ;
-    }
-
-    .gallerysct {
-        width: 36em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 14em ;
-        height: 10em ;
-    }
-
-    .p-banner-box {
-        width: 34em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 34em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 14em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 38em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em ;
-        height: 23em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 34em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 34em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% ;
-    }
-
-
-
-
-
-    #p-productsctslide-container {
-        width: 34em ;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 34em ;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 34em ;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 34em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em ;
-        text-align: center ;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 34em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 24em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-
-    #g-gallery-container {
-        width: 37em ;
-    }
-
-    #g-gallery-container img {
-        width: 15em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 35em ;
-    }
-
-
-
-
-    #w-container {
-        width: 35em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 34em ;
-        height: 24em ;
-    }
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 35em ;
-    }
-
+  .menubtn {
+    font-size: 0.8em;
+  }
+
+  #logo {
+    width: 8em;
+  }
+
+  #firstscttxt {
+    font-size: 1.5em;
+  }
+
+  .numscttitle {
+    font-size: 0.9em;
+  }
+
+  .numsctnum {
+    font-size: 1.4em;
+  }
+
+  .workcard {
+    width: 10em;
+  }
+
+  .workcardcontent {
+    padding: 3em 0.7em 3em 0.7em;
+    font-size: 1em;
+  }
+
+  .productcontainer {
+    width: 14em;
+  }
+
+  .productcontainerimg {
+    height: 9em;
+  }
+
+  .productcontainertitle {
+    font-size: 1.2em;
+  }
+
+  .gallerysct {
+    width: 36em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 14em;
+    height: 10em;
+  }
+
+  .p-banner-box {
+    width: 34em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 34em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 14em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 38em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 15em;
+    height: 23em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 34em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 34em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 70%;
+  }
+
+  #p-productsctslide-container {
+    width: 34em;
+  }
+
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 34em;
+  }
+
+  #p-productsctslide-presentation-videobox {
+    width: 34em;
+  }
+
+  #p-productsctslide-presentation-txtbox {
+    width: 34em;
+  }
+
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
+
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #p-productsct-advantage {
+    width: 34em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 24em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.1em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.2em;
+  }
+
+  #g-gallery-container {
+    width: 37em;
+  }
+
+  #g-gallery-container img {
+    width: 15em;
+  }
+
+  #warranty-txtbox {
+    width: 35em;
+  }
+
+  #w-container {
+    width: 35em;
+  }
+
+  .w-logo-box {
+    width: 5%;
+  }
+
+  #w-maps {
+    width: 34em;
+    height: 24em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 35em;
+  }
 }
-
 
 @media screen and (max-width: 600px) {
-    .p-banner-box {
-        width: 30em ;
-    }
+  .p-banner-box {
+    width: 30em;
+  }
 
+  #g-gallery-container {
+    width: 34em;
+  }
 
+  #g-gallery-container img {
+    width: 15em;
+  }
 
-    #g-gallery-container {
-        width: 34em ;
-    }
+  #warranty-txtbox {
+    width: 32em;
+  }
 
-    #g-gallery-container img {
-        width: 15em ;
-    }
+  .w-logo-box {
+    width: 5%;
+  }
 
+  #w-maps {
+    width: 30em;
+    height: 22em;
+    border-radius: 0.4em;
+  }
 
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 32em;
+  }
 
+  #dn-box {
+    width: 33em;
+  }
 
-
-    #warranty-txtbox {
-        width: 32em ;
-    }
-
-
-
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 30em ;
-        height: 22em ;
-        border-radius: 0.4em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 32em ;
-    }
-
-    #dn-box {
-        width: 33em ;
-    }
-
-
-
-    footer {
-        font-size: 0.6em ;
-    }
+  footer {
+    font-size: 0.6em;
+  }
 }
 
-@media screen and (max-width:576px) {
-
-    .menubtn {
-        font-size: 0.7em ;
-    }
-
-    #logo {
-        width: 7em ;
-    }
-
-    .scttitle-dark {
-        font-size: 1.6em ;
-    }
-
-
-    .scttitle-light {
-        font-size: 1em ;
-    }
-
-    #firstscttxt {
-        font-size: 1.4em ;
-    }
-
-    .numscttitle {
-        font-size: 0.7em ;
-    }
-
-    .numsctnum {
-        font-size: 1.1em ;
-    }
-
-    #numsct {
-        width: 73% ;
-    }
-
-    .icon {
-        width: 4em ;
-        height: 4em ;
-        bottom: -2.5em ;
-    }
-
-    .workcard {
-        width: 9em ;
-    }
-
-    .workcardcontent {
-        padding: 4em 0.5em 3em 0.5em ;
-        font-size: 0.9em ;
-    }
-
-    .workcardimg {
-        height: 5em ;
-    }
-
-    .productcontainer {
-        width: 12em ;
-    }
-
-    .productcontainerimg {
-        height: 8em ;
-    }
-
-    .productcontainertitle {
-        font-size: 0.9em ;
-    }
-
-    .p-box-100 {
-        width: 90% ;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 25em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 20em ;
-        height: 13em ;
-    }
-
-    .gallerybtn {
-        font-size: 1.1em ;
-    }
-
-    .p-banner-box {
-        width: 29em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 30em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 13em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 30em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em ;
-        height: 22em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 32em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 32em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% ;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 30em ;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 30em ;
-        width: 32em ;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 32em ;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 32em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em ;
-        text-align: center ;
-    }
-
-
-
-    #p-productsct-advantage {
-        width: 32em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 23em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.5em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.4em ;
-    }
-
-
-
-    .g-gallery-container-section-title {
-        font-size: 1.3em;
-    }
-
-    .g-gallery-container-section-title {
-        font-size: 1.1em ;
-    }
-
-    #g-gallery-container {
-        width: 30em ;
-    }
-
-    #g-gallery-container img {
-        width: 13em ;
-    }
-
-
-
-    #w-container {
-        width: 30em ;
-    }
-
-    .w-infocontainer {
-        width: 30em ;
-        font-size: 0.8em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 28em ;
-        height: 18em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 30em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em ;
-        height: 14em ;
-    }
-
-
-    
-    footer {
-        flex-direction: column ;
-        font-size: 0.7em ;
-    }
-
-    .footer-box {
-        width: 90% ;
-        padding: 0.3em;
-    }
+@media screen and (max-width: 576px) {
+  .menubtn {
+    font-size: 0.7em;
+  }
+
+  #logo {
+    width: 7em;
+  }
+
+  .scttitle-dark {
+    font-size: 1.6em;
+  }
+
+  .scttitle-light {
+    font-size: 1em;
+  }
+
+  #firstscttxt {
+    font-size: 1.4em;
+  }
+
+  .numscttitle {
+    font-size: 0.7em;
+  }
+
+  .numsctnum {
+    font-size: 1.1em;
+  }
+
+  #numsct {
+    width: 73%;
+  }
+
+  .icon {
+    width: 4em;
+    height: 4em;
+    bottom: -2.5em;
+  }
+
+  .workcard {
+    width: 9em;
+  }
+
+  .workcardcontent {
+    padding: 4em 0.5em 3em 0.5em;
+    font-size: 0.9em;
+  }
+
+  .workcardimg {
+    height: 5em;
+  }
+
+  .productcontainer {
+    width: 12em;
+  }
+
+  .productcontainerimg {
+    height: 8em;
+  }
+
+  .productcontainertitle {
+    font-size: 0.9em;
+  }
+
+  .p-box-100 {
+    width: 90%;
+  }
+
+  .p-box-50 {
+    width: 10em;
+  }
+
+  .p-box-25 {
+    width: 10em;
+  }
+
+  .p-box-33 {
+    width: 10em;
+  }
+
+  .gallerysct {
+    width: 25em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 20em;
+    height: 13em;
+  }
+
+  .gallerybtn {
+    font-size: 1.1em;
+  }
+
+  .p-banner-box {
+    width: 29em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 30em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 13em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 30em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 10em;
+    height: 22em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 32em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 32em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 70%;
+  }
+
+  #p-productsctslide-container {
+    width: 30em;
+  }
+
+  #p-productsctslide-presentation-video {
+    height: 30em;
+    width: 32em;
+  }
+
+  #p-productsctslide-presentation-videobox {
+    width: 32em;
+  }
+
+  #p-productsctslide-presentation-txtbox {
+    width: 32em;
+  }
+
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
+
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #p-productsct-advantage {
+    width: 32em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 23em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.1em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.5em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.4em;
+  }
+
+  .g-gallery-container-section-title {
+    font-size: 1.3em;
+  }
+
+  .g-gallery-container-section-title {
+    font-size: 1.1em;
+  }
+
+  #g-gallery-container {
+    width: 30em;
+  }
+
+  #g-gallery-container img {
+    width: 13em;
+  }
+
+  #w-container {
+    width: 30em;
+  }
+
+  .w-infocontainer {
+    width: 30em;
+    font-size: 0.8em;
+  }
+
+  .w-logo-box {
+    width: 5%;
+  }
+
+  #w-maps {
+    width: 28em;
+    height: 18em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 30em;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 14em;
+    height: 14em;
+  }
+
+  footer {
+    flex-direction: column;
+    font-size: 0.7em;
+  }
+
+  .footer-box {
+    width: 90%;
+    padding: 0.3em;
+  }
 }
 
 @media screen and (max-width: 530px) {
-    .workcard {
-        width: 7.5em ;
-    }
+  .workcard {
+    width: 7.5em;
+  }
 
-    .p-banner-box {
-        width: 27.5em ;
-    }
+  .p-banner-box {
+    width: 27.5em;
+  }
 
-    #p-productsctwindowdoor-specs {
-        width: 28em ;
-    }
+  #p-productsctwindowdoor-specs {
+    width: 28em;
+  }
 
-    .p-productsctwindowdoor-specs-box {
-        width: 25em ;
-    }
+  .p-productsctwindowdoor-specs-box {
+    width: 25em;
+  }
 
-    .p-productsctwindowdoor-container {
-        width: 29em ;
-    }
+  .p-productsctwindowdoor-container {
+    width: 29em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box {
-        width: 10em ;
-        height: 22em ;
-    }
+  .p-productsctwindowdoor-profiletype-box {
+    width: 10em;
+    height: 22em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
 
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
 
+  .p-productsctwindowdoor-profilecolor {
+    width: 28em;
+  }
 
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 28em;
+  }
 
-    .p-productsctwindowdoor-profilecolor {
-        width: 28em ;
-    }
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2.2em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 28em ;
-    }
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.6em;
+  }
 
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2.2em ;
-    }
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 70%;
+  }
 
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.6em ;
-    }
+  #p-productsctslide-container {
+    width: 30em;
+  }
 
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 70% ;
-    }
+  #p-productsctslide-presentation-video {
+    height: 25em;
+    width: 30em;
+  }
 
+  #p-productsctslide-presentation-videobox {
+    width: 30em;
+  }
 
+  #p-productsctslide-presentation-txtbox {
+    width: 30em;
+  }
 
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
 
-    #p-productsctslide-container {
-        width: 30em ;
-    }
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.4em;
+    text-align: center;
+  }
 
-    #p-productsctslide-presentation-video {
-        height: 25em ;
-        width: 30em ;
-    }
+  #p-productsct-advantage {
+    width: 28em;
+  }
 
-    #p-productsctslide-presentation-videobox {
-        width: 30em ;
-    }
+  .p-productsct-advantage-box {
+    width: 20em;
+  }
 
-    #p-productsctslide-presentation-txtbox {
-        width: 30em ;
-    }
+  .p-productsct-advantage-logo {
+    width: 4.1em;
+  }
 
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
+  .p-productsct-advantage-title {
+    font-size: 1.5em;
+  }
 
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.4em ;
-        text-align: center ;
-    }
+  .p-productsct-advantage-txt {
+    font-size: 1.4em;
+  }
 
+  #warranty-txtbox {
+    width: 28em;
+  }
 
+  #w-container {
+    width: 30em;
+  }
 
-    #p-productsct-advantage {
-        width: 28em ;
-    }
+  .w-logo-box {
+    width: 5%;
+  }
 
-    .p-productsct-advantage-box {
-        width: 20em ;
-    }
+  #w-maps {
+    width: 28em;
+    height: 18em;
+  }
 
-    .p-productsct-advantage-logo {
-        width: 4.1em ;
-    }
+  #w-container {
+    width: 28em;
+  }
 
-    .p-productsct-advantage-title {
-        font-size: 1.5em ;
-    }
+  .w-infocontainer {
+    width: 90%;
+    margin-bottom: 3em;
+    justify-content: center;
+    align-content: center;
+    border-left: 0.3em dotted rgb(58, 58, 58);
+  }
 
-    .p-productsct-advantage-txt {
-        font-size: 1.4em ;
-    }
+  .w-infobox {
+    border-bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: 1em;
+  }
 
+  .w-logo-box {
+    padding: 0;
+    width: 8%;
+  }
 
+  .w-txtbox {
+    align-items: flex-start;
+    justify-content: left;
+  }
 
+  .w-txtbox-txt {
+    text-align: left;
+  }
 
-    #warranty-txtbox {
-        width: 28em ;
-    }
+  #w-maps {
+    width: 26em;
+    height: 20em;
+  }
 
-
-
-    #w-container {
-        width: 30em ;
-    }
-
-    .w-logo-box {
-        width: 5%;
-    }
-
-    #w-maps {
-        width: 28em ;
-        height: 18em ;
-    }
-
-
-
-    #w-container {
-        width: 28em ;
-    }
-
-    .w-infocontainer {
-        width: 90% ;
-        margin-bottom: 3em ;
-        justify-content: center ;
-        align-content: center ;
-        border-left: 0.3em dotted rgb(58, 58, 58) ;
-    }
-
-    .w-infobox {
-        border-bottom: 0;
-        flex-direction: row ;
-        align-items: center ;
-        justify-content: left ;
-        font-size: 1em ;
-    }
-
-    .w-logo-box {
-        padding: 0 ;
-        width: 8%;
-    }
-
-    .w-txtbox {
-        align-items: flex-start ;
-        justify-content: left ;
-    }
-
-    .w-txtbox-txt {
-        text-align: left ;
-    }
-
-    #w-maps {
-        width: 26em ;
-        height: 20em ;
-    }
-
-
-
-
-    #dn-box {
-        width: 30em ;
-    }
-
+  #dn-box {
+    width: 30em;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .p-banner-box {
-        width: 26em;
-    }
+  .p-banner-box {
+    width: 26em;
+  }
 
-    .scttitle-dark {
-        font-size: 1em ;
-    }
+  .scttitle-dark {
+    font-size: 1em;
+  }
 
-    .scttxt-dark {
-        font-size: 0.7em ;
-    }
+  .scttxt-dark {
+    font-size: 0.7em;
+  }
 
+  #g-gallery-container {
+    width: 24em;
+  }
 
+  #g-gallery-container img {
+    width: 20em;
+  }
 
+  #w-container {
+    width: 28em;
+  }
 
+  .w-logo-box {
+    width: 8%;
+  }
 
-    #g-gallery-container {
-        width: 24em ;
-    }
+  #w-maps {
+    width: 26em;
+    height: 20em;
+  }
 
-    #g-gallery-container img {
-        width: 20em ;
-    }
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 28em;
+  }
 
-
-
-
-    #w-container {
-        width: 28em ;
-    }
-
-    .w-logo-box {
-        width: 8% ;
-    }
-
-    #w-maps {
-        width: 26em ;
-        height: 20em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 28em ;
-    }
-
-
-
-    #dn-box {
-        width: 28em ;
-    }
-
+  #dn-box {
+    width: 28em;
+  }
 }
 
-@media screen and (max-width:470px) {
-
-    .menubtn {
-        font-size: 0.6em ;
-    }
-
-    #logo {
-        width: 6em ;
-    }
-
-    .scttitle-dark {
-        font-size: 1.3em ;
-    }
-
-
-    .scttitle-light {
-        font-size: 1.3em ;
-    }
-
-    #firstscttxt {
-        font-size: 1.2em ;
-        margin: 0.8em;
-    }
-
-    .numscttitle {
-        font-size: 0.9em ;
-    }
-
-    .numsctnum {
-        font-size: 1.1em ;
-    }
-
-    #numsct {
-        width: 73% ;
-    }
-
-    .icon {
-        width: 3.5em ;
-        height: 3.5em ;
-        bottom: -2em ;
-    }
-
-    .workcard {
-        width: 15em ;
-        border-radius: 1em;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.5em 2em 0.5em ;
-        font-size: 0.9em ;
-    }
-
-    .workcardimg {
-        height: 7em ;
-    }
-
-    .productcontainer {
-        width: 15em ;
-    }
-
-    .productcontainerimg {
-        height: 7em ;
-    }
-
-    .productcontainertitle {
-        font-size: 1.1em ;
-    }
-
-    .p-box-100 {
-        width: 90% ;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 25em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 15em ;
-        height: 10em ;
-    }
-
-    .gallerybtn {
-        font-size: 1.1em ;
-    }
-
-    .p-banner-box {
-        width: 22em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 23em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 19em ;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 22em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em ;
-        height: 24em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 23em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 25em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 2em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% ;
-    }
-
-
-
-
-    #p-productsctslide-container {
-        width: 23em ;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 18em ;
-        width: 23em ;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 23em ;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 23em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-
-    #p-productsct-advantage {
-        width: 22em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 20em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-    #warranty-txtbox {
-        width: 24em ;
-    }
-
-
-
-
-    #w-container {
-        width: 24em ;
-    }
-
-    #w-maps {
-        width: 24em ;
-        height: 18em ;
-    }
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 23em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em ;
-        height: 14em ;
-    }
+@media screen and (max-width: 470px) {
+  .menubtn {
+    font-size: 0.6em;
+  }
+
+  #logo {
+    width: 6em;
+  }
+
+  .scttitle-dark {
+    font-size: 1.3em;
+  }
+
+  .scttitle-light {
+    font-size: 1.3em;
+  }
+
+  #firstscttxt {
+    font-size: 1.2em;
+    margin: 0.8em;
+  }
+
+  .numscttitle {
+    font-size: 0.9em;
+  }
+
+  .numsctnum {
+    font-size: 1.1em;
+  }
+
+  #numsct {
+    width: 73%;
+  }
+
+  .icon {
+    width: 3.5em;
+    height: 3.5em;
+    bottom: -2em;
+  }
+
+  .workcard {
+    width: 15em;
+    border-radius: 1em;
+  }
+
+  .workcardcontent {
+    padding: 3em 0.5em 2em 0.5em;
+    font-size: 0.9em;
+  }
+
+  .workcardimg {
+    height: 7em;
+  }
+
+  .productcontainer {
+    width: 15em;
+  }
+
+  .productcontainerimg {
+    height: 7em;
+  }
+
+  .productcontainertitle {
+    font-size: 1.1em;
+  }
+
+  .p-box-100 {
+    width: 90%;
+  }
+
+  .p-box-50 {
+    width: 10em;
+  }
+
+  .p-box-25 {
+    width: 10em;
+  }
+
+  .p-box-33 {
+    width: 10em;
+  }
+
+  .gallerysct {
+    width: 25em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 15em;
+    height: 10em;
+  }
+
+  .gallerybtn {
+    font-size: 1.1em;
+  }
+
+  .p-banner-box {
+    width: 22em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 23em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 19em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 22em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 15em;
+    height: 24em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 23em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 25em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 2em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.4em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 80%;
+  }
+
+  #p-productsctslide-container {
+    width: 23em;
+  }
+
+  #p-productsctslide-presentation-video {
+    height: 18em;
+    width: 23em;
+  }
+
+  #p-productsctslide-presentation-videobox {
+    width: 23em;
+  }
+
+  #p-productsctslide-presentation-txtbox {
+    width: 23em;
+  }
+
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
+
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+  }
+
+  #p-productsct-advantage {
+    width: 22em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 20em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.1em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.2em;
+  }
+
+  #warranty-txtbox {
+    width: 24em;
+  }
+
+  #w-container {
+    width: 24em;
+  }
+
+  #w-maps {
+    width: 24em;
+    height: 18em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 23em;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 14em;
+    height: 14em;
+  }
 }
 
-@media screen and (max-width:400px) {
-
-    .menubtn {
-        font-size: 0.7em ;
-    }
-
-    #logo {
-        width: 5em ;
-    }
-
-    .scttitle-dark {
-        font-size: 1.3em ;
-    }
-
-
-    .scttitle-light {
-        font-size: 1.3em ;
-    }
-
-    #firstscttxt {
-        font-size: 1.1em ;
-        margin: 0.8em;
-    }
-
-    .numscttitle {
-        font-size: 0.7em ;
-    }
-
-    .numsctnum {
-        font-size: 0.9em ;
-    }
-
-    #numsct {
-        width: 73% ;
-    }
-
-    .icon {
-        width: 3.5em ;
-        height: 3.5em ;
-        bottom: -2em ;
-    }
-
-    .workcard {
-        width: 15em ;
-        border-radius: 1em;
-    }
-
-    .workcardcontent {
-        padding: 3em 0.5em 2em 0.5em ;
-        font-size: 0.9em ;
-    }
-
-    .workcardimg {
-        height: 4em ;
-    }
-
-    .productcontainer {
-        width: 15em ;
-    }
-
-    .productcontainerimg {
-        height: 7em ;
-    }
-
-    .productcontainertitle {
-        font-size: 1.1em ;
-    }
-
-    .p-box-100 {
-        width: 90% ;
-    }
-
-    .p-box-50 {
-        width: 10em;
-    }
-
-    .p-box-25 {
-        width: 10em;
-    }
-
-    .p-box-33 {
-        width: 10em;
-    }
-
-    .gallerysct {
-        width: 20em ;
-    }
-
-    .gallerybox {
-        margin: 1em ;
-        width: 17em ;
-        height: 12em ;
-    }
-
-    .gallerybtn {
-        font-size: 0.9em ;
-    }
-
-    .p-banner-box {
-        width: 20em ;
-    }
-
-    #p-productsctwindowdoor-specs {
-        width: 20em ;
-    }
-
-    .p-productsctwindowdoor-specs-box {
-        width: 18em ;
-    }
-
-
-
-    .p-productsctwindowdoor-container {
-        width: 21em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box {
-        width: 15em ;
-        height: 22em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-title {
-        font-size: 1.3em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-box-txt {
-        font-size: 1em ;
-    }
-
-
-
-
-    .p-productsctwindowdoor-profilecolor {
-        width: 22em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-box {
-        width: 22em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-title {
-        font-size: 1.8em ;
-    }
-
-    .p-productsctwindowdoor-profilecolor-txt {
-        font-size: 1.2em ;
-    }
-
-    #p-productsctwindowdoor-profilecolor-img {
-        width: 80% ;
-    }
-
-
-
-    #p-productsctslide-container {
-        width: 20em ;
-    }
-
-    #p-productsctslide-presentation-video {
-        height: 16em ;
-        width: 20em ;
-    }
-
-    #p-productsctslide-presentation-videobox {
-        width: 20em ;
-    }
-
-    #p-productsctslide-presentation-txtbox {
-        width: 20em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-title {
-        font-size: 1.4em ;
-    }
-
-    #p-productsctslide-presentation-txtbox-txt {
-        font-size: 1.2em ;
-    }
-
-
-
-
-    #p-productsct-advantage {
-        width: 20em ;
-    }
-
-    .p-productsct-advantage-box {
-        width: 18em ;
-    }
-
-    .p-productsct-advantage-logo {
-        width: 4.1em ;
-    }
-
-    .p-productsct-advantage-title {
-        font-size: 1.4em ;
-    }
-
-    .p-productsct-advantage-txt {
-        font-size: 1.2em ;
-    }
-
-
-    .g-gallery-container-section-title {
-        font-size: 1em;
-    }
-
-    #g-gallery-container {
-        width: 20em ;
-    }
-
-    #g-gallery-container img {
-        width: 17em ;
-    }
-
-
-
-    #warranty-txtbox {
-        width: 20em ;
-    }
-
-
-
-
-    #w-container {
-        width: 20em ;
-    }
-
-    #w-maps {
-        width: 20em ;
-        height: 16em ;
-    }
-
-
-
-
-    #p-productsctwindowdoor-profiletype-popup {
-        width: 20em ;
-    }
-
-    .p-productsctwindowdoor-profiletype-popup-img {
-        width: 14em ;
-        height: 14em ;
-    }
-
-
-
-    #dn-box {
-        width: 20em ;
-    }
+@media screen and (max-width: 400px) {
+  .menubtn {
+    font-size: 0.7em;
+  }
+
+  #logo {
+    width: 5em;
+  }
+
+  .scttitle-dark {
+    font-size: 1.3em;
+  }
+
+  .scttitle-light {
+    font-size: 1.3em;
+  }
+
+  #firstscttxt {
+    font-size: 1.1em;
+    margin: 0.8em;
+  }
+
+  .numscttitle {
+    font-size: 0.7em;
+  }
+
+  .numsctnum {
+    font-size: 0.9em;
+  }
+
+  #numsct {
+    width: 73%;
+  }
+
+  .icon {
+    width: 3.5em;
+    height: 3.5em;
+    bottom: -2em;
+  }
+
+  .workcard {
+    width: 15em;
+    border-radius: 1em;
+  }
+
+  .workcardcontent {
+    padding: 3em 0.5em 2em 0.5em;
+    font-size: 0.9em;
+  }
+
+  .workcardimg {
+    height: 4em;
+  }
+
+  .productcontainer {
+    width: 15em;
+  }
+
+  .productcontainerimg {
+    height: 7em;
+  }
+
+  .productcontainertitle {
+    font-size: 1.1em;
+  }
+
+  .p-box-100 {
+    width: 90%;
+  }
+
+  .p-box-50 {
+    width: 10em;
+  }
+
+  .p-box-25 {
+    width: 10em;
+  }
+
+  .p-box-33 {
+    width: 10em;
+  }
+
+  .gallerysct {
+    width: 20em;
+  }
+
+  .gallerybox {
+    margin: 1em;
+    width: 17em;
+    height: 12em;
+  }
+
+  .gallerybtn {
+    font-size: 0.9em;
+  }
+
+  .p-banner-box {
+    width: 20em;
+  }
+
+  #p-productsctwindowdoor-specs {
+    width: 20em;
+  }
+
+  .p-productsctwindowdoor-specs-box {
+    width: 18em;
+  }
+
+  .p-productsctwindowdoor-container {
+    width: 21em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box {
+    width: 15em;
+    height: 22em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-title {
+    font-size: 1.3em;
+  }
+
+  .p-productsctwindowdoor-profiletype-box-txt {
+    font-size: 1em;
+  }
+
+  .p-productsctwindowdoor-profilecolor {
+    width: 22em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-box {
+    width: 22em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-title {
+    font-size: 1.8em;
+  }
+
+  .p-productsctwindowdoor-profilecolor-txt {
+    font-size: 1.2em;
+  }
+
+  #p-productsctwindowdoor-profilecolor-img {
+    width: 80%;
+  }
+
+  #p-productsctslide-container {
+    width: 20em;
+  }
+
+  #p-productsctslide-presentation-video {
+    height: 16em;
+    width: 20em;
+  }
+
+  #p-productsctslide-presentation-videobox {
+    width: 20em;
+  }
+
+  #p-productsctslide-presentation-txtbox {
+    width: 20em;
+  }
+
+  #p-productsctslide-presentation-txtbox-title {
+    font-size: 1.4em;
+  }
+
+  #p-productsctslide-presentation-txtbox-txt {
+    font-size: 1.2em;
+  }
+
+  #p-productsct-advantage {
+    width: 20em;
+  }
+
+  .p-productsct-advantage-box {
+    width: 18em;
+  }
+
+  .p-productsct-advantage-logo {
+    width: 4.1em;
+  }
+
+  .p-productsct-advantage-title {
+    font-size: 1.4em;
+  }
+
+  .p-productsct-advantage-txt {
+    font-size: 1.2em;
+  }
+
+  .g-gallery-container-section-title {
+    font-size: 1em;
+  }
+
+  #g-gallery-container {
+    width: 20em;
+  }
+
+  #g-gallery-container img {
+    width: 17em;
+  }
+
+  #warranty-txtbox {
+    width: 20em;
+  }
+
+  #w-container {
+    width: 20em;
+  }
+
+  #w-maps {
+    width: 20em;
+    height: 16em;
+  }
+
+  #p-productsctwindowdoor-profiletype-popup {
+    width: 20em;
+  }
+
+  .p-productsctwindowdoor-profiletype-popup-img {
+    width: 14em;
+    height: 14em;
+  }
+
+  #dn-box {
+    width: 20em;
+  }
 }
